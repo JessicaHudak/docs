@@ -5,9 +5,9 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'Dyte Docs',
-  tagline: 'Real-time audio & video SDKs, ready to launch 🚀',
-  url: 'https://docs.dyte.io',
+  title: 'READY Docs',
+  tagline: 'Robot docs, ready to launch 🚀',
+  url: 'https://www.ready-robotics.com',
   baseUrl: '/',
   favicon: '/favicon.ico',
   i18n: {
@@ -408,12 +408,12 @@ const config = {
         },
         items: [
           {
-            label: 'Guides',
+            label: 'ForgeOS User Manual',
             to: 'guides',
             className: 'guides-top-header',
           },
           {
-            label: 'SDKs',
+            label: 'Startup Guides',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
@@ -425,7 +425,7 @@ const config = {
             ],
           },
           {
-            label: 'REST API',
+            label: 'Dev Docs',
             to: '/api/',
           },
           {
@@ -442,7 +442,7 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://dyte.io/contact',
+            to: 'https://www.ready-robotics.com/support/documentation',
           },
 
           {
