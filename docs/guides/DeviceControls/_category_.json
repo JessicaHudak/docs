@@ -1,6 +1,6 @@
 {
-  "position": 5,
-  "label": "Capabilities",
+  "position": 6,
+  "label": "Device Controls",
   "collapsible": true,
   "className": "releaseSidebarHeading"
 }

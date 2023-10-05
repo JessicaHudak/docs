@@ -1,6 +1,6 @@
 {
-  "position": 5,
-  "label": "Capabilities",
+  "position": 9,
+  "label": "Task Canvas",
   "collapsible": true,
   "className": "releaseSidebarHeading"
 }

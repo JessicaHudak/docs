@@ -1,6 +1,6 @@
 {
-  "position": 5,
-  "label": "Capabilities",
+  "position": 8,
+  "label": "Rule Engine",
   "collapsible": true,
   "className": "releaseSidebarHeading"
 }

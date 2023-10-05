@@ -1,6 +1,6 @@
 {
-  "position": 5,
-  "label": "Capabilities",
+  "position": 10,
+  "label": "Task Canvas Block Glossary",
   "collapsible": true,
   "className": "releaseSidebarHeading"
 }
