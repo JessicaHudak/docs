@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Fieldbus Configuration
 
 The Fieldbus Configuration screen is where you add, delete, and change the state of Fieldbus interfaces.

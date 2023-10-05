@@ -1,3 +1,7 @@
+---
+sidebar_position: 12
+---
+
 # Adding a Network I/O Device
 
 **Note:** To add a network-based fieldbus device, such as an EtherNet/IP or Modbus TCP device, first add the relevant fieldbus interface in the Settings app. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more.

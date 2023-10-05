@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Adding a Rockwell Automation Logix PAC
 
 In ForgeOS versions prior to 5.3.0, Rockwell Automation Logix PACs connected to the **EtherNet/IP ForgeOS Adapter** network device. This provided a generic set of 132 bytes of input/output for you to define. Even though a usable connection was established, it required effort to map all process data and functions.

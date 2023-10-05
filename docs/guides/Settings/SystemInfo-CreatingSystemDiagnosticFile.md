@@ -1,3 +1,7 @@
+---
+sidebar_position: 14
+---
+
 # Creating a System Diagnostic File
 
 Follow these steps to create system diagnostic information when you have a problem with your system. Send the files to READY Robotics Support for help.

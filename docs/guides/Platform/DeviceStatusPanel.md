@@ -51,6 +51,3 @@ The **RESET**button clears warnings and errors when possible. All safety conditi
 |![](../Images/Platform/AutoPairing-Cropped.png)|
 
 **Note:** For hardware errors that will not reset in ForgeOS, follow the manufacturer's error recovery procedures.
-
-**Parent topic:**[ForgeOS Platform](../Platform/PlatformOverview.md)
-

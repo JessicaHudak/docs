@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+
 # Settings
 
 The Settings app is used to view system information and change global settings. Sign in as **Admin**to access it.

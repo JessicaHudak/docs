@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 # System Information
 
 The System Information screen is where you view the ForgeOS version information, pendant information, and READY Robotics Support information.

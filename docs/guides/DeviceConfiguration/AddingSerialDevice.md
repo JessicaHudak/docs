@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 # Adding a Serial Device
 
 **Note:** To add a Serial-based fieldbus device, such as a Modbus RTU device, first add a serial interface to ForgeOS in the Settings app. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more.

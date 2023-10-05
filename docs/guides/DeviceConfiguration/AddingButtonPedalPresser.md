@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # Adding a Button/Pedal Presser
 
 Follow the instructions in this section to configure a generic button or pedal presser. These steps are for a button presser, but adding a pedal presser follows the same steps.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Adding a Generic IO Device
 
 A Generic IO Device allows you to define a custom device by creating functions that can be manually controlled through the Device Control app or programmed as blocks in Task Canvas.

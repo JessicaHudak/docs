@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # User Accounts
 
 |The User Accounts screen is where you set login settings.

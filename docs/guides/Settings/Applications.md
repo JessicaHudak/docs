@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Applications
 
 The Applications screen is where you choose what app icons appear in the three spots that are to the right of the Home button.

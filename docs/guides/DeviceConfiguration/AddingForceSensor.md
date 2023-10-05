@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Adding a Force Sensor
 
 ForgeOS supports three force sensor options: **A Universal Robot e-Series Integrated Force Sensor**, a **Robotiq FT 300 Force Torque Sensor**, and a **Generic Force Torque** **Sensor**.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # General Settings
 
 The General Settings screen is where you access language, unit, and time settings.

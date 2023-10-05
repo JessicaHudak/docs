@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # Activating ForgeOS with a License Code
 
 There are two methods to activate ForgeOS: **Online license activation** and **offline license activation**.

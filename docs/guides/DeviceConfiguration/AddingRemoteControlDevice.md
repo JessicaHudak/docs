@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # Adding a Remote Control Device
 
 A Remote Control Device allows you to communicate with ForgeOS from an external HMI.

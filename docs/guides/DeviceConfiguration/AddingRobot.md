@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Adding a Robot
 
 Before adding a robot to the Device Library, install the robot and robot controller following vendor instructions. Go to **ready-robotics.com** to find a startup guide for your robot controller.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Package Manager
 
 The **Package Manager** is where you install new software components from the Cloud or from a USB flash drive without requiring a new full build of ForgeOS. Components are "packaged" to contain all relevant software and configuration templates. Packages are digitally signed and verified for security and authenticity.
