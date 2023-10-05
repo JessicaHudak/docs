@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Safety Overview
 
 Always follow corporate guidelines and regional safety regulations. For questions about device-specific safety requirements, refer to the device documentation.

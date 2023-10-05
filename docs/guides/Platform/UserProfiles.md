@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # User Profiles
 
 After you start up ForgeOS, sign in to a user profile. ForgeOS has two user profiles: Admin and Operator.

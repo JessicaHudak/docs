@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Device Status Panel
 
 The **Device Status Panel**displays the operational mode or state of all enabled devices. Expand the panel by tapping the **DEVICE STATUS**button in the Taskbar.

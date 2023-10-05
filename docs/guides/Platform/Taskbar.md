@@ -1,3 +1,8 @@
+---
+sidebar_position: 5
+---
+
+
 # Taskbar
 
 The **Taskbar** displays app icons, device statuses, and system information. The Taskbar is always available except during task execution.

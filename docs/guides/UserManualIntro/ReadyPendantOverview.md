@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # READY Pendant Overview
 
 The READY pendant is the touch screen interface for ForgeOS. ForgeOS software runs on both the READY pendant and an **industrial PC \(IPC\)**. Together, they are the brain of your workcell.

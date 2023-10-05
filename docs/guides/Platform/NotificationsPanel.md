@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Notifications Panel
 
 |The Notification Panel displays a table of status history.
