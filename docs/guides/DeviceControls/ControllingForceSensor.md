@@ -2,9 +2,9 @@
 
 When you select a force torque sensor, the app displays an active graph of force and torque over time.
 
-![](../Images/DeviceControls/DeviceControl-Icon.png)
+![](../Images/DeviceControls/ForceSensor.png)
 
-By default, all components of force and torque \(**Fx, Fy, Fz, Tx, Ty,**and **Tz**\) are shown on the graph. Un-check any of the items that you don't want to see.
+By default, all components of force and torque \(**Fx, Fy, Fz, Tx, Ty,** and **Tz**\) are shown on the graph. Un-check any of the items that you don't want to see.
 
 -   Tap **START RECORDING** to begin reading force and torque values.
 -   Tap **PAUSE** to stop collecting force and torque values.

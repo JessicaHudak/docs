@@ -4,7 +4,7 @@
 
 | |Base Frame|TCP Frame|Custom Frame|
 |--|----------|---------|------------|
-|Image|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|Image|![](../Images/TaskCanvas/Robot-3DPanel-BaseFrame.png)|![](../Images/TaskCanvas/Robot-3DPanel-TCPFrame.png)|![](../Images/TaskCanvas/Robot-3DPanel-CustomFrame.png)|
 |Location|The base of the robot|The active Tool Center Point \(TCP\)|Wherever you define, relative to the Base frame or another custom frame|
 |Can you use it to define Waypoints?|Yes|No|Yes|
 |Can you use it to define Frames?|Yes|No|Yes|
@@ -31,38 +31,38 @@ Use the **Frame Manager** to create and manage custom frames for the selected ro
 -   **Global 1-Point Frame**: Globe icon
 -   **Global 3-Point Frame**: Globe icon and the coordinate system icon with the number "3"
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager.png)|
 
 |To create a new frame, tap **NEW +** at the top of the table. Decide if you want to create a **1-POINT FRAME** or a **3-POINT FRAME**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager-New-Type.png)|
 
 |To create a 1-point frame, follow these steps:
 
  1.  Enter a **Name**.
-2.  Choose a **Frame** from which to define the new frame. Except for special cases, select the **Base**frame.
+2.  Choose a **Frame** from which to define the new frame. Except for special cases, select the **Base** frame.
 3.  If the active TCP is not the TCP that you want to use, switch to a different one in the Device Control app.
 4.  In the Device Control app, move the TCP to the desired location of the new frame. In the New Frame pop-up, the **Positions** fields automatically fill in with the TCP's current position. Alternatively, directly type values into the **Positions** fields.
 5.  Tap **ACCEPT** to save the frame.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager-New-1pt.png)|
 
 |To create a 3-point frame, follow these steps:
 
  1.  Enter a **Name**.
-2.  Choose a **Frame** from which to define the new frame. Except for special cases, select the **Base**frame.
+2.  Choose a **Frame** from which to define the new frame. Except for special cases, select the **Base** frame.
 3.  If the active TCP is not the TCP that you want to use, switch to a different one in the Device Control app.
 4.  In the Device Control app, move the TCP to the desired **Origin** of the new frame and tap **RECORD CURRENT POSITION**. Alternatively, tap **FROM EXISTING POSITION** to use an existing waypoint for the Origin position.
 5.  Repeat the above step for the **X point** and **Y point**.
 6.  Once there is a checkmark next to the Origin, X point, and Y point fields, tap **ACCEPT** to save the frame.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager-New-3pt.png)|
 
-|To make one or more frames global, select them and tap **Make Global**at the top of the table. A global frame is accessible to other tasks and apps \(including the Device Control app\). If you change a global frame, it changes everywhere.
+|To make one or more frames global, select them and tap **Make Global** at the top of the table. A global frame is accessible to other tasks and apps \(including the Device Control app\). If you change a global frame, it changes everywhere.
 
  **Important:** Once you make a frame global, you cannot make it local again. However, you can create a local duplicate of a global frame.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager-DuplicateGlobalFrame.png)|
 
 To reassign the defining frame for selected frames, tap **Reassign Frame**.
 
@@ -74,9 +74,9 @@ To remove one or more frames from the task, select them on the table and tap **D
 
 To make a copy of one or more frames, select them on the table and tap **Duplicate**. If you are duplicating a global frame, choose if you want the copy to be local or global. The copy’s name will end with “-copy” to avoid name collision.
 
-To delete all unused frames, select none of the frames and tap **Clear Unused**at the top of the table. A prompt lists all the unused local variables and asks you to confirm before deleting them. Unused frames are frames with zero waypoint references.
+To delete all unused frames, select none of the frames and tap **Clear Unused** at the top of the table. A prompt lists all the unused local variables and asks you to confirm before deleting them. Unused frames are frames with zero waypoint references.
 
-At the bottom of the manager, use the **TRY IT OUT**section to preview a selected frame. Tap**MOVE TO** to move the TCP to the selected frame. Drag the **Speed** slider to determine how fast the robot moves. Tap **RESET POSITION**to move the robot to the position it was in when you opened the Frame Manager.
+At the bottom of the manager, use the **TRY IT OUT** section to preview a selected frame. Tap**MOVE TO** to move the TCP to the selected frame. Drag the **Speed** slider to determine how fast the robot moves. Tap **RESET POSITION** to move the robot to the position it was in when you opened the Frame Manager.
 
 **Parent topic:**[Data Management](../TaskCanvas/DataManagement.md)
 

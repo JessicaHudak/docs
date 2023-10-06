@@ -1,6 +1,6 @@
 # Create and Manage Variables
 
-**Variables**store and transmit values between blocks and devices. Use variables for decision-making with **Check**blocks. Use **Set** and **User Input**blocks to change variable values. Four types of variables are possible:
+**Variables** store and transmit values between blocks and devices. Use variables for decision-making with **Check** blocks. Use **Set** and **User Input** blocks to change variable values. Four types of variables are possible:
 
 |Type|Description|
 |----|-----------|
@@ -23,19 +23,19 @@ Use the **Variable Manager** to create and manage variables. Listed for each exi
 
 **Note:** The **Value** is what you or the task last set the variables to. The **Default** value is what task variables reset to when you tap **Reset States** or **Reset All to Start**.
 
-|To delete all unused variables, select none of the variables and tap **Clear Unused**at the top of the table. A prompt lists all the unused local variables and asks you to confirm before deleting them. Unused variables are variables with zero block references.
+|To delete all unused variables, select none of the variables and tap **Clear Unused** at the top of the table. A prompt lists all the unused local variables and asks you to confirm before deleting them. Unused variables are variables with zero block references.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/VariableManager.png)|
 
 |To add a new variable, tap **NEW+** at the top of the table. Select which type of variable you want to create, then enter that variable’s information.
 
 **Important:** Once you create a variable, you can't change the type of variable it is.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/VariableManager-New-Simple.png)|
 
-|In the **Complex** tab, add a list variable for advanced applications. A **list variable** is a series of one or more values of a chosen sub-type \(i.e., integer, float, string, or boolean\).|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|In the **Complex** tab, add a list variable for advanced applications. A **list variable** is a series of one or more values of a chosen sub-type \(i.e., integer, float, string, or boolean\).|![](../Images/TaskCanvas/VariableManager-New-Complex.png)|
 
-|Each sub-type item has a current Value and a Default value. The first item in the list has an index of “1”, the second item has an index of “2”, etc. Change the order by selecting one or more items and pressing the up or down arrows. In the **Default Values** tab, copy the list from the **Current Values** tab by selecting no entries and then tapping **Copy From Current** in the table header.|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|Each sub-type item has a current Value and a Default value. The first item in the list has an index of “1”, the second item has an index of “2”, etc. Change the order by selecting one or more items and pressing the up or down arrows. In the **Default Values** tab, copy the list from the **Current Values** tab by selecting no entries and then tapping **Copy From Current** in the table header.|![](../Images/TaskCanvas/VariableManager-New-Complex-DefaultValues-MultiSelect.png)|
 
 |Using the variable selector in various pop-ups, you may call a list variable in its entirety or any index from it. Depending on the context of the variable selector, you will either be presented with "Use" functions or "Set" functions. -   **Use functions** are available in places like the Check block. These functions include "take" and "look".
 
@@ -43,7 +43,7 @@ Use the **Variable Manager** to create and manage variables. Listed for each exi
 
 -   **Set functions** are available in places like the Set block. These functions include "add", "insert", "overwrite", "merge", and "truncate".
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/VariableSelector-ListVariable.png)|
 
 |"Use" Function|Description|
 |--------------|-----------|
@@ -68,7 +68,7 @@ Use the **Variable Manager** to create and manage variables. Listed for each exi
 
 **Important:** Once you make a variable global, you cannot make it only local again. However, you can create a local duplicate of a global variable.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/VariableManager-Select.png)|
 
 |To edit a variable, select it on the table and tap **Edit**. You can rename the selected variable, change its current value, or change its default value. You cannot change the variable's type.
 
@@ -76,7 +76,7 @@ Use the **Variable Manager** to create and manage variables. Listed for each exi
 
  To make a copy of one or more variables, select them on the table and tap **Duplicate**. If you are duplicating a global variable, choose if you want the copy to be local or global. The copy’s name will end with “-copy” to avoid name collision.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/VariableManager-DuplicateGlobal.png)|
 
 **Parent topic:**[Data Management](../TaskCanvas/DataManagement.md)
 

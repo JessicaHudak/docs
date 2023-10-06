@@ -2,7 +2,7 @@
 
 The Canvas Data menu is where you modify data used by blocks in the task, including robot positioning data and variables.
 
-![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+![](../Images/TaskCanvas/DataMenu.png)
 
 -   **[Create and Manage Waypoints](../TaskCanvas/CreateAndManageWaypoints.md)**  
 

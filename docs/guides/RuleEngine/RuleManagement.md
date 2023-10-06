@@ -4,26 +4,26 @@ Inside a ruleset's manager, create, enable, edit, and delete that ruleset's rule
 
 |Tap **NEW +** to create a new rule.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/Ruleset-Home.png)
 
 |
 
 |Decide if you want to add a "While condition is met", "When event occurs", or "Linked values" rule.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/CreateRule.png)
 
 |
 
 |Select "**While condition is met**" to create a "While this... do this" rule with an optional "else" rule that executes while conditions are met.
 
-In the **When this** tab, tap **ADD +** to add conditions. In the **Conditions met when**dropdown, select:
+In the **When this** tab, tap **ADD +** to add conditions. In the **Conditions met when** dropdown, select:
 
 -   **All match**: All lines must pass to perform the "Do this" assignment.
 
 -   **Any match**: Any of the lines must pass to perform the "Do this" assignment.
 
 
-In the **Do this**tab, tap **ADD +** to assign actions for while the conditions are met. For example, turn a stack light one color while a task is running.
+In the **Do this** tab, tap **ADD +** to assign actions for while the conditions are met. For example, turn a stack light one color while a task is running.
 
 In the **Else** tab, tap **ADD +** to assign alternative actions if the conditions are not met. For example, turn a stack light another color while a task is not running.
 
@@ -31,7 +31,7 @@ To see which conditions are satisfied and which ones are not, tap **Evaluate**. 
 
 To delete a condition, select it in the table. The ADD + button turns into a red trash can. Tap the trash can and confirm **DELETE**.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/WhileConditionIsMet.png)
 
 |
 
@@ -50,7 +50,7 @@ To see which conditions are satisfied and which ones are not, tap **Evaluate**. 
 
 To delete a condition, select it in the table. The ADD + button turns into a red trash can. Tap the trash can and confirm **DELETE**.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/WhenEventOccurs.png)
 
 |
 
@@ -60,7 +60,7 @@ Tap **ADD +** to add assignments. Set the **Target** and **Source** fields. For 
 
 To delete an assignment, select it in the table. The ADD + button turns into a red trash can. Tap the trash can and confirm **DELETE**.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/LinkedValues.png)
 
 |
 
@@ -72,7 +72,7 @@ To edit a rule, select it in the table and tap **Edit** in the table header.
 
 To remove one or more rules, tap **Delete** in the table header.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/DeleteRule.png)
 
 |
 

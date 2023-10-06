@@ -2,7 +2,7 @@
 
 When you select an I/O device, the app shows selection tabs for **Input Signals**, **Output Signals**, and **Config Signals**. The Config Signals tab is available for the EtherNet/IP Generic Device only.
 
-![](../Images/DeviceControls/DeviceControl-Icon.png)
+![](../Images/DeviceControls/ForgeCtrl-OutputSignals.png)
 
 |Feature|Description|
 |-------|-----------|

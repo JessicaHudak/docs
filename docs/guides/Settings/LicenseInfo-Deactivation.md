@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Deactivating ForgeOS with a License Code
 
 To transfer a ForgeOS license from one machine to another, first deactivate the license. Then activate it on the new machine.
@@ -24,11 +20,11 @@ The table below lists the requirements for each method.
 
 1.  On the Settings app main screen, tap **License Info**.
 
-    ![](../Images/Settings/Settings-Icon.png)
+    ![](../Images/Settings/Home.png)
 
-2.  Choose **ONLINE LICENSE DEACTIVATION**if ForgeOS is connected to the internet. If not, choose**OFFLINE LICENSE DEACTIVATION**.
+2.  Choose **ONLINE LICENSE DEACTIVATION** if ForgeOS is connected to the internet. If not, choose**OFFLINE LICENSE DEACTIVATION**.
 
-    ![](../Images/Settings/Settings-Icon.png)
+    ![](../Images/Settings/License-Deactivation.png)
 
 3.  In the pop-up, tap **DEACTIVATE** to confirm that you want to deactivate your license.
 
@@ -38,11 +34,11 @@ The table below lists the requirements for each method.
 
     1.  Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
 
-        ![](../Images/Settings/Settings-Icon.png)
+        ![](../Images/Settings/License-Deactivation-Offline-Step1.png)
 
     2.  When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to finish deactivating the license using an internet-connected PC.
 
-        ![](../Images/Settings/Settings-Icon.png)
+        ![](../Images/Settings/License-Deactivation-Offline-Step2.png)
 
     3.  Tap **FINISH**.
 

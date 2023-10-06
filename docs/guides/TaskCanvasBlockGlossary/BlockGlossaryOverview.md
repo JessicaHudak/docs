@@ -1,10 +1,10 @@
 # Block Glossary
 
-The types of **blocks**available in Task Canvas depend on the devices you added in Task Settings.
+The types of **blocks** available in Task Canvas depend on the devices you added in Task Settings.
 
-Add blocks to a task from the **Block Menu**. The Block Menu organizes block types by device, except for the Canvas blocks. **Canvas**blocks are not specific to any device. Some of them can control multiple devices and others control flowchart logic or variables.
+Add blocks to a task from the **Block Menu**. The Block Menu organizes block types by device, except for the Canvas blocks. **Canvas** blocks are not specific to any device. Some of them can control multiple devices and others control flowchart logic or variables.
 
-![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)
+![](../Images/TaskCanvasBlockGlossary/Menu.png)
 
 -   **[Canvas Blocks](../TaskCanvasBlockGlossary/Canvas-Overview.md)**  
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Package Manager
 
 The **Package Manager** is where you install new software components from the Cloud or from a USB flash drive without requiring a new full build of ForgeOS. Components are "packaged" to contain all relevant software and configuration templates. Packages are digitally signed and verified for security and authenticity.
@@ -32,25 +28,25 @@ Streamline the package installation process with “package bundles”. Instead 
 
 |The main Package Manager screen shows a table of installed packages.
 
-Tap **ADD NEW PACKAGE +**to install a new package.
+Tap **ADD NEW PACKAGE +** to install a new package.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager.png)|
 
-|Tap the **Install from USB**tab if you are installing a package from a USB flash drive that you plugged into your IPC.
+|Tap the **Install from USB** tab if you are installing a package from a USB flash drive that you plugged into your IPC.
 
 Tap the **Install from Online Server** tab if ForgeOS is connected to the internet and you are installing a package from the Cloud.
 
 Select a package from the list and tap **Install** in the table header.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager-Install.png)|
 
 |Tap **Details** in the table header to view more information about the selected package.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager-PackageDetails.png)|
 
 |Check the status of the package installation and removal process with the “Install/Uninstall Status” pop-up. In the case of failure, this pop-up displays an error code and details. For example, you will be warned if there's not enough storage space available before installation begins.**Tip:** If you are installing a package from a USB flash drive, make sure that the USB was safely ejected from the PC it got the file from.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager-InstallStatus-Failure.png)|
 
 |If no errors occur during installation, the new package appears in the Package Manager main screen.
 
@@ -58,11 +54,11 @@ To uninstall a package, select it and tap **Uninstall** in the table header.
 
  **Note:** Previously-existing instances of a package will be automatically removed prior to the installation of the new version.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager-PackageLibrary-Select-Uninstall.png)|
 
 |In the pop-up, tap **UNINSTALL** to confirm the package uninstallation.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/PackageManager-Uninstall.png)|
 
 **Parent topic:**[Settings](../Settings/SettingsOverview.md)
 

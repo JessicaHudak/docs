@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Installing ForgeOS
 
 Follow these steps to install ForgeOS and sign in to the Admin role. Installation takes about 30 minutes, depending on the resources of the IPC.
@@ -12,7 +8,7 @@ Follow these steps to install ForgeOS and sign in to the Admin role. Installatio
 
     1.  Connect a monitor, keyboard, and mouse to the IPC where you want to install ForgeOS.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-IPCMonitorKeyboardMouse.png)
 
     2.  Plug the ForgeOS installation USB flash drive into the IPC.
 
@@ -24,65 +20,65 @@ Follow these steps to install ForgeOS and sign in to the Admin role. Installatio
 
         **Note:** If you're installing Forge/OS on a **Forge/Ctrl**, press F11. You may need to enter the **BIOS Admin password**. Contact READY Support if you run into this issue.
 
-    4.  From the boot options, select **Install ForgeOS**to boot from the installation USB flash drive.
+    4.  From the boot options, select **Install ForgeOS** to boot from the installation USB flash drive.
 
     5.  The installer may take several minutes to load. Wait until the installation wizard opens.
 
     6.  Select your language. Then click **Install Forge**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-Language.png)
 
     7.  Choose a keyboard layout. Then click **Continue**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-KeyboardLayout.png)
 
     8.  Select **Minimal installation**. Uncheck **Download updates while installing forgeos**. Then click **Continue**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-MinimalDownloadUpdates.png)
 
     9.  Select **Erase disk and install forgeos**. Then click **Continue**.
 
         **Note:** If ForgeOS is already installed, the installation wizard will show additional options. The goal is to erase the entire disk for a brand new installation.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-InstallationType.png)
 
     10. Select the IPC hard drive for ForgeOS and click **Install Now**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-EraseDisk.png)
 
     11. Confirm that you want to erase the entire disk by clicking **Continue**.
 
     12. Make a note of the pendant instructions. If you're using a Forge/Ctrl, select the checkbox next to **This hardware is a Forge CTRL**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-ForgeCtrl.png)
 
     13. Choose your timezone. Then click **Continue**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-WhereAreYou.png)
 
     14. Choose your IPC's host name. The host name identifies the IPC on the network. Pick a username and password. Then click **Continue.**
 
         **Note:** The username and password that you create here are for accessing the IPC desktop. They are NOT for signing into ForgeOS on the READY pendant.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-WhoAreYou.png)
 
     15. Wait for the installer to copy and install ForgeOS.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-CopyingFiles.png)
 
     16. Once the installation completes, click **Restart Now**.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-Restart-to-Complete.png)
 
     17. When prompted, remove the installation flash drive. Then reboot.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-RemoveUSBInstaller.png)
 
     18. Wait for ForgeOS to finish booting.
 
     19. When you see the login screen with the ForgeOS 5 logo, ForgeOS is ready to run on the READY pendant! You don't need to sign in to the desktop. Disconnect the monitor, keyboard, and mouse that you used to install ForgeOS.
 
-        ![](../Images/Platform/AutoPairing-Cropped.png)
+        ![](../Images/Platform/Install-Complete.png)
 
 2.  The READY pendant automatically finds and pairs with the IPC. The three LEDs on the screen help you track the status:
 
@@ -101,7 +97,7 @@ Follow these steps to install ForgeOS and sign in to the Admin role. Installatio
 
 3.  Tap **Admin** and sign in. The default Admin password is "forgeadmin".
 
-    ![](../Images/Platform/AutoPairing-Cropped.png)
+    ![](../Images/Platform/SignIn-Profiles.png)
 
 
 **Note:** After installation, you have limited access to ForgeOS until you activate it with a license code. See [Activating ForgeOS with a License Code](../Settings/LicenseInfo-Activation.md).

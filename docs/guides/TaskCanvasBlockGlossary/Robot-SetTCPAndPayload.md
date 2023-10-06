@@ -4,17 +4,17 @@ The TCP/Payload block sets the robot's Active Tool Center Point \(TCP\) and Acti
 
 |**Note:** First add the TCPs and Payloads to a robot's configuration in Device Configuration.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-TCPAndPayload-Block.png)|
 
 |When you add a TCP/Payload block, choose whether or not to change the Active TCP and/or Active Payload.
 
 Check the box labeled "**Do not update**" to maintain the active TCP or Payload at the time when the block executes.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-TCPAndPayload-Settings.png)|
 
 |Use the dropdown menus to select the configured TCP and/or Payload you want the block to make active.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-TCPAndPayload-Settings-TCPDropdown.png)|
 
 **Important:** When executing waypoint motion blocks, the **Active TCP** on the robot should match the TCP defined for that waypoint. If not, the position the robot moves to won't match the expected position. Use the TCP/Payload block in a task to update the Active TCP before moving to that waypoint.
 

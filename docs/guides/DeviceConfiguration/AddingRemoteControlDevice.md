@@ -1,28 +1,24 @@
----
-sidebar_position: 10
----
-
 # Adding a Remote Control Device
 
 A Remote Control Device allows you to communicate with ForgeOS from an external HMI.
 
 You can only have one Remote Control Device enabled at a time. If you try to add another one, a pop-up reminds you to disable the existing one first.
 
-![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+![](../Images/DeviceConfiguration/RemoteControlDevice-MaxDevicesError.png)
 
 **Note:** The Remote Control Device requires you to map signals. First configure a PLC or other relevant devices. Any device with IO is available to send and receive commands. Devices with pre-configured signal mapping \(such as the **Rockwell Automation Logix PAC**\) will have commands and outputs pre-mapped, allowing setup in just a few steps.
 
 1.  Select **Remote Control Device**, then tap **NEXT**.
 
-    ![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+    ![](../Images/DeviceConfiguration/DeviceLibrary-Filter-IODevice.png)
 
 2.  Type in a **Device Name**. A **Description** is optional. In the **Select Device** dropdown, choose a device to use for remote control. Then tap **NEXT**.
 
-    ![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+    ![](../Images/DeviceConfiguration/RemoteControlDevice-Home.png)
 
 3.  In the **Command Input Signals** tab, tap **ADD COMMAND +** to add an input command. To remove one or more input commands, select the checkbox\(es\) and tap **Remove**. For the input commands in the table, add device signals by tapping the variable selector to the right of the ‘Select a value” field.
 
-    ![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+    ![](../Images/DeviceConfiguration/RemoteControlDevice-CommandInputSignalsChosen.png)
 
     Input signals \(that are sent from the PLC to Task Canvas\) include:
 
@@ -51,9 +47,9 @@ You can only have one Remote Control Device enabled at a time. If you try to add
 
 |
 
-4.  In the **Output Signals** tab, tap **ADD OUTPUT +**to add an output. To remove one or more outputs, select the checkbox\(es\) and tap **Remove**. For the outputs in the table, add device signals by tapping the variable selector to the right of the ‘Select a value” field.
+4.  In the **Output Signals** tab, tap **ADD OUTPUT +** to add an output. To remove one or more outputs, select the checkbox\(es\) and tap **Remove**. For the outputs in the table, add device signals by tapping the variable selector to the right of the ‘Select a value” field.
 
-    ![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+    ![](../Images/DeviceConfiguration/RemoteControlDevice-OutputSignalsChosen.png)
 
     Output signals \(that are sent from Task Canvas or ForgeOS to the PLC\) include:
 

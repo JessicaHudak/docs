@@ -8,7 +8,7 @@ Use the Device Control app to manually control devices while programming a task 
 
 Tap the Select Device dropdown and choose the device to control. Only devices added and enabled in the Device Configuration app may be controlled. The screen shows information and controls for the selected device.
 
-![](../Images/DeviceControls/DeviceControl-Icon.png)
+![](../Images/DeviceControls/SelectDeviceDropdown.png)
 
 Only one device at a time may be controlled in the Device Control app. For example, a robot arm cannot be moved at the same time that a gripper is actuated. Switch between the devices using the dropdown.
 

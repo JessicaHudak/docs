@@ -6,9 +6,9 @@ To create a ruleset, select **NEW +** from the Rule Engine main screen or **New 
 
 The ruleset will access all devices that are listed in the table. By default, the device table includes all devices that are enabled in Device Configuration.
 
-**Note:** At the bottom, tap **Add Tag**to make the ruleset easier to find later. When searching for the ruleset, enter a tag to filter the search results.
+**Note:** At the bottom, tap **Add Tag** to make the ruleset easier to find later. When searching for the ruleset, enter a tag to filter the search results.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/CreateRuleset.png)
 
 |
 
@@ -18,7 +18,7 @@ Remove devices by selecting each unwanted device and tapping **Remove**.
 
 **Note:** Tapping Remove here hides the selected device\(s\) from this ruleset's list of devices. It does NOT remove the device\(s\) from the Device Configuration app.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/DeleteDevice.png)
 
 |
 
@@ -28,7 +28,7 @@ Remove devices by selecting each unwanted device and tapping **Remove**.
 
 Tap **CREATE RULESET**. ForgeOS directs you that ruleset's manager.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/CreateRuleset-AddDevice.png)
 
 |
 

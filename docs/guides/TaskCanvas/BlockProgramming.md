@@ -4,11 +4,11 @@
 
 To add a block, tap an existing block and then **+ Add**. This reveals the **Block Menu.** Task Canvas organizes the block menu by the devices that a block can control.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Canvas-Flowchart-StartBlock.png)|![](../Images/TaskCanvas/BlockGlossary.png)|
 
 Tap any block on the canvas to display the available paths. When you create a new task, tap the Start block to add your first block.
 
-Blocks in the **Canvas**category are not specific to any device. Some of them can control multiple devices and others control flowchart logic or variables.
+Blocks in the **Canvas** category are not specific to any device. Some of them can control multiple devices and others control flowchart logic or variables.
 
 Add blocks through the bottom or right paths of existing blocks. You can add blocks on the path between existing blocks. Task Canvas inserts the new block and connects all the blocks.
 
@@ -16,7 +16,7 @@ Add blocks through the bottom or right paths of existing blocks. You can add blo
 
 |To edit a block, tap the block to select it and tap the **Edit Block** icon in the Block Editor Menu.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Canvas-Flowchart-Select-EditMenu.png)|
 
 |In the pop-up, modify the block's settings and parameters.
 
@@ -26,39 +26,39 @@ In robot move blocks, use the **TRY IT OUT** section to preview the move. Tap **
 
  Tap **CANCEL**to close the block without saving the changes or **ACCEPT**to close the block and save the changes.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Block-Settings-Robot-Absolute.png)|
 
 ## Rename Blocks
 
 Naming blocks can be useful to identify the function that a block performs. For example, rename a Set block to "Turn on machine" or a Continuous Move block to "Motion exiting machine".
 
-|To rename a block, tap the block to select it and tap the **Rename**icon on the Block Editor Menu.
+|To rename a block, tap the block to select it and tap the **Rename** icon on the Block Editor Menu.
 
 Type in the name and tap the green check mark to confirm.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Rename-Block.png)|
 
 ## Cut/Copy and Paste Blocks
 
-Move or duplicate a block using the **Cut/Paste** and **Copy/Paste**features in the expanded Block Editor Menu. Cut and Copy do not affect the parameters or custom text used by a block. You can cut or copy only one selected block at a time.
+Move or duplicate a block using the **Cut/Paste** and **Copy/Paste** features in the expanded Block Editor Menu. Cut and Copy do not affect the parameters or custom text used by a block. You can cut or copy only one selected block at a time.
 
-|Select the block on the canvas you want to move or duplicate, then tap **Cut**or **Copy**. Select the target block after which you want to place the cut or copied block, then select the path on which to place the block.
+|Select the block on the canvas you want to move or duplicate, then tap **Cut** or **Copy**. Select the target block after which you want to place the cut or copied block, then select the path on which to place the block.
 
- Finish by tapping **Paste**on the top bar.
+ Finish by tapping **Paste** on the top bar.
 
  **Note:** Cut removes the block from its previous location when pasting it to the new one. This may break existing paths at the previous location in a way that requires you to reconnect them.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/CutAndPaste.png)|
 
 ## Delete Blocks
 
-To remove a block from the Canvas, tap the block to select it and tap the **Delete**icon on the Block Editor Menu.
+To remove a block from the Canvas, tap the block to select it and tap the **Delete** icon on the Block Editor Menu.
 
 |Task Canvas reconnects paths that were going to and from that block. The app notifies you if you need to manually reconnect some paths.
 
  **Note:** Deleting a block from the canvas does not delete the parameters used in the block, such as waypoints or variables. To delete task parameters, use the correct data manager in the Data Menu.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Detach2.png)|
 
 ## Add Comments to Blocks
 
@@ -70,11 +70,11 @@ Add comments to blocks to keep track of what each block does.
 
  To edit or delete the comment, select the block and tap Comment again. Make changes and **ACCEPT**, or tap **DELETE COMMENT**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Comment-New.png)|
 
 |To view a comment, tap the colored icon at the top-right corner of the block. Tap **BACK TO BLOCK** to center the screen on the commented block. Tap**X** to close the comment.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Comment-View.png)|
 
 ## Add Block Notifications
 
@@ -95,7 +95,7 @@ Blocks can publish a notification when it either starts or finishes.
 -   Red: Error
 
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Notify-NewNotification.png)|
 
 |In the Notification box, type additional details. This info will display in a pop-up when viewing the notification.
 
@@ -105,7 +105,7 @@ Blocks can publish a notification when it either starts or finishes.
 
  **Tip:** You can add this notification feature to multiple blocks at once in Select mode. When doing this, blocks will give default info notifications.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Notify-NotificationsPanel-View.png)|
 
 ## Change Block Execution State
 
@@ -117,29 +117,29 @@ The execution state of a 30 second Wait block that is stopped at 20 seconds is "
 
 When you **Resume** or **Step**, these blocks continue from where they left off. Press **Reset States** or **Reset All to Start** to quickly return them to their starting values.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/RuntimeControls.png)|
 
 **Note:** A *Count block* with the execution state "Count 4" resumes by counting to "Count 5". A *Grid block* with an execution state "Move to 14" resumes by moving to the 14th position in the grid. A *Wait block* with an execution state of 20 seconds resumes by counting down from 20 seconds.
 
 |To set the execution state of a block, select the block and tap **State**. In the pop-up, type in the state and tap **UPDATE**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/State-CountBlockState.png)|
 
 ## Skip Blocks
 
 A "skipped" block means that it doesn't execute at runtime.
 
-|Select a block and choose **Skip Down**or **Skip Right** to skip the block and instruct Task Canvas which path to follow instead.
+|Select a block and choose **Skip Down** or **Skip Right** to skip the block and instruct Task Canvas which path to follow instead.
 
 Choose **Unskip** on a skipped block to restore it to execution.
 
 **Important:** Be careful not to skip a function necessary for later actions to execute. For example, don't skip a block that opens a machine door before the robot moves into the machine.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Skip-Down.png)|
 
 ## Select Multiple Blocks
 
-To select multiple blocks, toggle the multi-select mode. Tap the **Select**icon on the Block Editor Menu to toggle it on \(blue\). Tap Select again to toggle multi-select off \(gray\).
+To select multiple blocks, toggle the multi-select mode. Tap the **Select** icon on the Block Editor Menu to toggle it on \(blue\). Tap Select again to toggle multi-select off \(gray\).
 
 |While the multi-select mode is on, select one or multiple blocks by tapping them. Task Canvas highlights selected blocks with a blue outline.
 
@@ -147,7 +147,7 @@ To deselect a block, tap it again.
 
 **Note:** You cannot access block settings, rename blocks, or change block states in the multi-select mode. You can only Delete, Skip, or Unskip selected blocks in the multi-select mode.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Select-MultiSelect-Blocks.png)|
 
 ## Connect Blocks
 
@@ -155,15 +155,15 @@ To create a path between existing blocks, select an exit path of the first block
 
 Select the second block where path goes, then tap **Connect** on the top menu.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/ConnectTo2.png)|![](../Images/TaskCanvas/ConnectTo3.png)|
 
 ## Detach Blocks
 
-To remove a path between two existing blocks, select the exit path from the first block. Then select **Detach**from the Block Menu.
+To remove a path between two existing blocks, select the exit path from the first block. Then select **Detach** from the Block Menu.
 
 **Note:** Detached blocks do not execute with the task. Be sure to reconnect the blocks where you want them before executing the task.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+|![](../Images/TaskCanvas/Detach1.png)|![](../Images/TaskCanvas/Detach2.png)
 
 |
 
@@ -175,7 +175,7 @@ Use the Undo and Redo buttons in the expanded Block Editor Menu to undo or resto
 
  **Note:** A maximum of 32 modifications are saved in the Undo stack.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Canvas-CollapsibleEditMenu.png)|
 
 **Parent topic:**[Task Canvas](../TaskCanvas/TaskCanvasOverview.md)
 

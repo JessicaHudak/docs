@@ -4,7 +4,7 @@ The Devices tab displays frame, float, double, integer, boolean, and string data
 
 |In the **Select Device** dropdown, select which device's data you want to view. All devices added in the Device Configuration app show in the dropdown.
 
-|![](../Images/ParameterManager/ParameterManager-Icon.png)|
+|![](../Images/ParameterManager/Devices-Dropdown.png)|
 
 |Device|Parameter\(s\)|Type|Description|
 |------|--------------|----|-----------|

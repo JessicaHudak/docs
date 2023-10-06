@@ -8,11 +8,11 @@ From the File Menu, tap **Task Settings** to change the settings of your open ta
 
 To add a device to the task, tap **ADD +**. Select the checkbox next to each device that you want to add and tap **ADD**.
 
-If you are using Remote Control mode, type in a **Remote Task ID**to allow the Remote Control Device to identify which task to load. The ID must be a unique, positive integer.
+If you are using Remote Control mode, type in a **Remote Task ID** to allow the Remote Control Device to identify which task to load. The ID must be a unique, positive integer.
 
 **Tip:** At the bottom, tap**Add Tag** to make the task easier to find later. When searching for the task, enter a tag to filter the search results.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+|![](../Images/TaskCanvas/TaskSettings.png)
 
 |
 
@@ -20,15 +20,17 @@ If you are using Remote Control mode, type in a **Remote Task ID**to allow the R
 
 **Note:** Removing a device here does NOT remove it from other tasks or from the Device Configuration app.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/TaskSettings-Select.png)|
 
-|Tap **Remap**to reassign one or more devices to another device. Select the new device from the **System Devices** dropdown. The remapped device must be of the same device class \(e.g., robot, gripper, sensor, etc.\) as the original device.
+|Tap **Remap** to reassign one or more devices to another device. Select the new device from the **System Devices** dropdown. The remapped device must be of the same device class \(e.g., robot, gripper, sensor, etc.\) as the original device.
 
 To save the device remap, tap **CONFIRM REMAP**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+|![](../Images/TaskCanvas/TaskSettings-RemapDevices-Dropdown.png)
 
 |
+
+![](../Images/TaskCanvas/TaskSettings-RemapDevices-ConfirmRemap.png)
 
 **Important:** If you are remapping to a different type of robot, update waypoints in the task's Waypoint Manager. Some parameters \(such as Set blocks for robot I/O\) may require manual reassignment in that block's settings.
 

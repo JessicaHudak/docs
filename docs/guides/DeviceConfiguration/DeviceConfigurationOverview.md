@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Device Configuration
 
 The Device Configuration app is used to add and manage devices in ForgeOS. Sign in as an **Admin** to access it. Supported devices include robot arms, PLCs, IO devices, end of arm tooling, and a wide range of fieldbus peripherals.
@@ -16,17 +12,17 @@ The Configured Devices List shows whether added devices are **Enabled** or **Dis
 
 To deselect devices, tap the checkbox next to the name or tap **Cancel** in the top right of the table.
 
-To delete one or more devices, select the devices and tap **Delete**at the top of the table.
+To delete one or more devices, select the devices and tap **Delete** at the top of the table.
 
-|![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)|
+|![](../Images/DeviceConfiguration/ConfiguredDevices-SelectGripper.png)|
 
-**Note:** In Task Canvas, device blocks only execute when the device is **Enabled**. If you **Delete**and re-add a device, affected device blocks must be remapped to the new device or removed from the task. See [Task Settings](../TaskCanvas/TaskSettings.md) for more information on device remapping,
+**Note:** In Task Canvas, device blocks only execute when the device is **Enabled**. If you **Delete** and re-add a device, affected device blocks must be remapped to the new device or removed from the task. See [Task Settings](../TaskCanvas/TaskSettings.md) for more information on device remapping,
 
 ## Device Library
 
 The Device Library lists all devices supported by ForgeOS. To access the Device Library, tap **New +** in the Device Configuration app. Sort and filter the list to find devices by **Name**, by **Vendor**, or by **Type**.
 
-![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+![](../Images/DeviceConfiguration/DeviceLibrary-Callouts.png)
 
 |No.|Device Library Feature|Description|
 |---|----------------------|-----------|

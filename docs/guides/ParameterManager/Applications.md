@@ -4,17 +4,17 @@ The Applications tab displays float, integer, date/time, boolean, and string dat
 
 |In the **Select Application** dropdown, select whether you want to view **ForgeOS** or **Task Canvas** data.
 
-|![](../Images/ParameterManager/ParameterManager-Icon.png)|
+|![](../Images/ParameterManager/Applications-Dropdown.png)|
 
 |App|Parameter|Type|Description|
 |---|---------|----|-----------|
 |Forge/OS|Date-Time|Date/Time|The system date and time, updated every second. Displays as \[month/day/year\] and \[hours/minutes/seconds\].|
 |Weekday|String|The current weekday \(not abbreviated\).|
-|Admin Logged In|Boolean|-   **True**when logged in as an Admin.
+|Admin Logged In|Boolean|-   **True** when logged in as an Admin.
 -   **False** when logged in as another account or on the Sign In screen.
 
 |
-|Operator Logged In|Boolean|-   **True**when you are logged in as an Operator.
+|Operator Logged In|Boolean|-   **True** when you are logged in as an Operator.
 -   ****False****when you are logged in as another account or on the Sign In screen.
 
 |

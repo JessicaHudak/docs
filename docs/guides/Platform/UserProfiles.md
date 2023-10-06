@@ -1,17 +1,13 @@
----
-sidebar_position: 3
----
-
 # User Profiles
 
 After you start up ForgeOS, sign in to a user profile. ForgeOS has two user profiles: Admin and Operator.
 
-![](../Images/Platform/AutoPairing-Cropped.png)
+![](../Images/Platform/SignIn-Profiles.png)
 
 -   The **Admin** profile is password-protected and has full access to apps in ForgeOS.
 -   The **Operator** profile does not have a password and has limited access.
 
-**Tip:** The default Admin password is "**forgeadmin**". Change the Admin login password in [User Accounts](../3-Settings-App/User_Accounts.md).
+**Tip:** The default Admin password is "**forgeadmin**". Change the Admin login password in [User Accounts](../Settings/UserAccounts.md).
 
 |The Operator profile **CANNOT:**
 

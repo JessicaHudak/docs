@@ -1,14 +1,10 @@
----
-sidebar_position: 13
----
-
 # Adding a Serial Device
 
 **Note:** To add a Serial-based fieldbus device, such as a Modbus RTU device, first add a serial interface to ForgeOS in the Settings app. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more.
 
 1.  Select a Serial device. Then tap **NEXT**.
 
-    ![](../Images/DeviceConfiguration/DeviceConfiguration-Icon.png)
+    ![](../Images/DeviceConfiguration/DeviceLibrary-Filter-Serial.png)
 
 2.  Type in a**Device Name**, select the**Fieldbus Interface**, and enter other required information. Refer to the device manufacturer’s guides for device setup parameters.
 

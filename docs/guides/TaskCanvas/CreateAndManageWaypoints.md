@@ -1,15 +1,15 @@
 # Create and Manage Waypoints
 
-A **Waypoint**defines the **pose**\(position and orientation\) of the robot relative to the origin of a **Frame**. Define waypoints using the **Base Frame**\(at the base of the robot\) or a **custom Frame**.
+A **Waypoint** defines the **pose** \(position and orientation\) of the robot relative to the origin of a **Frame**. Define waypoints using the **Base Frame** \(at the base of the robot\) or a **custom Frame**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Frame-Base.png)|![](../Images/TaskCanvas/Frame-Custom.png)|
 |Waypoint defined by the Base Frame|Waypoint defined by a Custom Frame|
 
-|Tap **NEW**in any robot command block waypoint field to create a waypoint.
+|Tap **NEW** in any robot command block waypoint field to create a waypoint.
 
-In the New Waypoint pop-up, choose how to define the waypoint \(**Linear**or **Joint**\).
+In the New Waypoint pop-up, choose how to define the waypoint \(**Linear** or **Joint**\).
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/WaypointSelector.png)|
 
 | |Linear Waypoint|Joint Waypoint|
 |--|---------------|--------------|
@@ -22,9 +22,9 @@ When creating a new waypoint, the **Positions** fields fill in with the robot's 
 
 To save the waypoint, tap **ACCEPT**.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/WaypointManager-NewWaypoint.png)|![](../Images/TaskCanvas/WaypointManager-ModifyWaypoint.png)|
 
-After you save a waypoint, tap the **EDIT**button to make changes to it. There are two ways that you can edit a waypoint:
+After you save a waypoint, tap the **EDIT** button to make changes to it. There are two ways that you can edit a waypoint:
 
 1.  In the **Positions** fields, type in new values. Then tap **UPDATE WAYPOINT** to save.
 
@@ -46,22 +46,22 @@ Use the **Waypoint Manager** to create and manage Waypoints in Task Canvas. The 
 
  To create a new waypoint, tap the **NEW +** button at the top of the table.
 
-At the bottom of the manager, use the **TRY IT OUT** section to preview a selected waypoint. Tap**MOVE TO** to move the TCP to the waypoint. Drag the **Speed** slider to determine how fast the robot moves. Tap **RESET POSITION** to move the robot to the position it was in when you opened the Waypoint Manager.
+At the bottom of the manager, use the **TRY IT OUT** section to preview a selected waypoint. Tap **MOVE TO** to move the TCP to the waypoint. Drag the **Speed** slider to determine how fast the robot moves. Tap **RESET POSITION** to move the robot to the position it was in when you opened the Waypoint Manager.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/WaypointManager.png)|
 
 |To make waypoints global, select them on the table and tap **Make Global**. Global waypoints are accessible to other tasks and apps. If you change a global waypoint, it changes everywhere it is used. Global waypoints have a globe icon next to them in the table.
 
  **Important:** Once you make a waypoint global, you cannot make it local again. However, you can create a local duplicate of a global waypoint.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/WaypointManager-Select-Menu.png)|
 
-|To reassign the Frame and TCP for selected waypoints, tap **Reassign Frame**or **Reassign TCP**. A dropdown appears to let you choose the new frame or TCP.Re-assigning the TCP or Frame for a waypoint does NOT change the position of the waypoint. For example:
+|To reassign the Frame and TCP for selected waypoints, tap **Reassign Frame** or **Reassign TCP**. A dropdown appears to let you choose the new frame or TCP.Re-assigning the TCP or Frame for a waypoint does NOT change the position of the waypoint. For example:
 
 -   If you change Waypoint-2's defining Frame to Frame-1 instead of Base, Waypoint-2's position won't change. Waypoint-2's position will change if you modify the coordinates of Frame-1.
 -   If some waypoints use a 100mm long tool, but you want to switch to a 300mm long tool, add a new TCP for that tool. Then use Set TCP to reassign the TCP for each waypoint.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/FrameManager-ReassignFrame.png)|
 
 **Important:** You may set the Active TCP in the Device Control app or with a Set TCP/Payload block in Task Canvas. If the Active TCP is different from the TCP used to create a waypoint, the end effector may not move to the expected position.
 
@@ -71,7 +71,7 @@ At the bottom of the manager, use the **TRY IT OUT** section to preview a select
 
  To make a copy of one or more waypoints, select them on the table and tap **Duplicate**. If you are duplicating a global waypoint, choose if you want the copy to be local or global. The copy’s name will end with “-copy” to avoid name collision.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/WaypointManager-DuplicateGlobal.png)|
 
 **Parent topic:**[Data Management](../TaskCanvas/DataManagement.md)
 

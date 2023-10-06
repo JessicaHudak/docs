@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Fieldbus Configuration
 
 The Fieldbus Configuration screen is where you add, delete, and change the state of Fieldbus interfaces.
@@ -10,11 +6,11 @@ The Fieldbus Configuration screen is where you add, delete, and change the state
 
 |There is a Status Indicator to the left of each interface. The indicator is red when the interface is stopped and green when it is running.
 
- Tap the toggle switch in the **Enabled**column to run or stop the interface.
+ Tap the toggle switch in the **Enabled** column to run or stop the interface.
 
- Tap the blue**NEW +**button to create a new Fieldbus configuration.
+ Tap the blue**NEW +** button to create a new Fieldbus configuration.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/FieldbusConfiguration.png)|
 
 |Choose between **Ethernet** and **Serial**, select an interface by name, and choose the protocol.
 
@@ -22,11 +18,11 @@ The Fieldbus Configuration screen is where you add, delete, and change the state
 
  -   For a serial interface, ForgeOS supports Modbus RTU.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/FieldbusConfiguration-AddSerial.png)|
 
 |Select one or more configurations and tap **Delete** to remove them from your Fieldbus configurations list.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/FieldbusConfiguration-Select.png)|
 
 **Parent topic:**[Settings](../Settings/SettingsOverview.md)
 

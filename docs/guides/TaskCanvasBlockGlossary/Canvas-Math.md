@@ -4,11 +4,11 @@
 
 For example, use the Math block to increment a variable as a task runs.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Math-Block.png)|
 
 |In the Math block settings, create mathematical expressions.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Math-Settings.png)|
 
 |Tap **ADD+** to add an operation to the block.
 
@@ -16,13 +16,13 @@ You may add multiple operations to execute. The Math block executes each operati
 
 Tap the red **Delete** button to remove a line.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Math-Settings-Selector.png)|
 
-|Tap the **Selection**button in any field to select an existing variable or signal to change.
+|Tap the **Selection** button in any field to select an existing variable or signal to change.
 
-**Note:** You can choose **Float**and **Integer** variables in the Math block. You cannot choose non-numerical variables.
+**Note:** You can choose **Float** and **Integer** variables in the Math block. You cannot choose non-numerical variables.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/VariableSelector.png)|
 
 |The mathematical expressions are defined in the form:
 
@@ -30,7 +30,7 @@ Tap the red **Delete** button to remove a line.
 
 The types of operations you can choose from are addition, subtraction, multiplication, division, and modulo \(mod\).
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Math-Settings-Operations.png)|
 
 **Parent topic:**[Canvas Blocks](../TaskCanvasBlockGlossary/Canvas-Overview.md)
 

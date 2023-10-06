@@ -9,13 +9,13 @@ The Global User Variables tab displays data for each global variable. If a varia
 -   Integer
 -   String
 
-|![](../Images/ParameterManager/ParameterManager-Icon.png)|
+|![](../Images/ParameterManager/GlobalUserVariables.png)|
 
 |To edit a global variable in the Parameter Manager, select it and tap **Edit** at the top of the table.
 
 To delete a global variable, select it and tap **Delete** at the top of the table.
 
-|![](../Images/ParameterManager/ParameterManager-Icon.png)|
+|![](../Images/ParameterManager/GlobalUserVariables-Select.png)|
 
 **Parent topic:**[Parameter Manager](../ParameterManager/ParameterManagerOverview.md)
 

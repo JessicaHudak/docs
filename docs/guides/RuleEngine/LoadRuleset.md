@@ -8,7 +8,7 @@ Tap **Duplicate** in the table header to create a copy of the selected ruleset\(
 
 Tap **Delete** in the table header to remove the selected ruleset\(s\).
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)|
+|![](../Images/RuleEngine/LoadRuleset.png)|
 
 **Parent topic:**[Ruleset Management](../RuleEngine/RulesetManagement.md)
 

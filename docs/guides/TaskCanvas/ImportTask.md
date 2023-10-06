@@ -13,29 +13,29 @@ There are two types of formats that you can import:
 
 Select **Import Task\(s\) from USB** to import tasks that were normally programmed on a READY pendant and exported to a USB drive.
 
-|Plug the USB flash drive with your ".task" file\(s\) into your IPC. Once the system detects your USB flash drive, tap **NEXT**.|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|Plug the USB flash drive with your ".task" file\(s\) into your IPC. Once the system detects your USB flash drive, tap **NEXT**.|![](../Images/TaskCanvas/ImportTaskFromUSB-InsertUSB.png)|
 
-|Select the task\(s\) you want to import. Then tap **NEXT**.|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|Select the task\(s\) you want to import. Then tap **NEXT**.|![](../Images/TaskCanvas/ImportTaskFromUSB-Select.png)|
 
-|If Task Canvas already has tasks or autosaved tasks with the same names as files that you are trying to import, choose if you want to overwrite the tasks on the system, merge the tasks, skip those tasks, or import the new tasks with “-copy” added to the end of the names.|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|If Task Canvas already has tasks or autosaved tasks with the same names as files that you are trying to import, choose if you want to overwrite the tasks on the system, merge the tasks, skip those tasks, or import the new tasks with “-copy” added to the end of the names.|![](../Images/TaskCanvas/ImportTaskFromUSB-OverwriteTasks-Cropped.png)|
 
 |Use the **System Devices** dropdowns to map the task's devices to your system's configured devices. The remapped device must be of the same device class \(e.g., robot, gripper, sensor, etc.\) as the original device. Then tap **NEXT**.
 
  **Important:** If you are remapping to a different type of robot, update waypoints in the task's Waypoint Manager to avoid collisions, singularities, or joint limits. Some parameters \(such as Set blocks for robot I/O\) may require manual reassignment in that block's settings.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/ImportTaskFromUSB-RemapDevicesDropdown.png)|
 
-|If the ForgeOS system already has parameters with the same names as parameters that you are trying to import, choose if you want to overwrite the parameters on the system, skip those parameters, or import the new parameters with “-copy” added to the end of the names.|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|If the ForgeOS system already has parameters with the same names as parameters that you are trying to import, choose if you want to overwrite the parameters on the system, skip those parameters, or import the new parameters with “-copy” added to the end of the names.|![](../Images/TaskCanvas/ImportTaskFromUSB-OverwriteParameters-Cropped.png)|
 
 |Review the information in the **Tasks**, **Devices**, and **Parameters** tabs.
 
- Tap **BACK**if you need to make any changes.
+ Tap **BACK** if you need to make any changes.
 
  If everything looks correct, tap **CONFIRM IMPORT**.
 
  Once the import is complete, tap **FINISH**. Then remove the USB flash drive.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/ImportTaskFromUSB-ConfirmTasks.png)|
 
 ## Importing FTL Files
 

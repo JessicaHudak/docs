@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Activating ForgeOS with a License Code
 
 There are two methods to activate ForgeOS: **Online license activation** and **offline license activation**.
@@ -25,13 +21,13 @@ The table below lists the requirements for each method.
 
 1.  On the Settings app main screen, tap **License**.
 
-    ![](../Images/Settings/Settings-Icon.png)
+    ![](../Images/Settings/Home-Deactivated.png)
 
 2.  Type in your license code.
 
-3.  Choose **ONLINE LICENSE ACTIVATION**if ForgeOS is connected to the internet. If not, choose**OFFLINE LICENSE ACTIVATION**.
+3.  Choose **ONLINE LICENSE ACTIVATION** if ForgeOS is connected to the internet. If not, choose**OFFLINE LICENSE ACTIVATION**.
 
-    ![](../Images/Settings/Settings-Icon.png)
+    ![](../Images/Settings/License-Activation-EnterLincenseKey.png)
 
 4.  If you chose online license activation, you're done!
 
@@ -39,15 +35,15 @@ The table below lists the requirements for each method.
 
     1.  Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
 
-        ![](../Images/Settings/Settings-Icon.png)
+        ![](../Images/Settings/License-Activation-Offline-Step1.png)
 
     2.  When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to convert the Activation Certificate to an Unlock Certificate using an internet-connected PC.
 
-        ![](../Images/Settings/Settings-Icon.png)
+        ![](../Images/Settings/License-Activation-Offline-Step2.png)
 
     3.  Insert the USB flash drive back into your IPC. Tap **UNLOAD UNLOCK CERTIFICATE FROM USB DRIVE**.
 
-        ![](../Images/Settings/Settings-Icon.png)
+        ![](../Images/Settings/License-Activation-Offline-Step3.png)
 
     4.  Wait for the file to finish transferring. When the file transfer is complete, remove the USB flash drive and tap **SAVE**.
 

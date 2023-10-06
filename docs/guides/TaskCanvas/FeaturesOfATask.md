@@ -1,16 +1,16 @@
 # Features of a Task
 
-Create a **task**by combining blocks into a **flowchart**. Create additional flowcharts as **subtasks** to execute functions inline or at the same time as the main task. For more information about subtasks, see [Multitasking with Subtasks](MultitaskingWithSubtasks.md).
+Create a **task** by combining blocks into a **flowchart**. Create additional flowcharts as **subtasks** to execute functions inline or at the same time as the main task. For more information about subtasks, see [Multitasking with Subtasks](MultitaskingWithSubtasks.md).
 
-![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+![](../Images/TaskCanvas/Canvas-Flowchart-Example2.png)
 
-Every flowchart begins with a **Start**block and follows the path of execution. Task Canvas performs each block's function before moving on to the next block. A flowchart ends with a **Finish**block or when there are no more blocks to execute.
+Every flowchart begins with a **Start** block and follows the path of execution. Task Canvas performs each block's function before moving on to the next block. A flowchart ends with a **Finish** block or when there are no more blocks to execute.
 
 ## Blocks
 
 Each block is a function that Task Canvas executes. On the Canvas, a block displays several pieces of important information:
 
-![](../Images/TaskCanvas/TaskCanvas-Icon.png)
+![](../Images/TaskCanvas/Block-Callouts.png)
 
 |No.|Block Information|Description|
 |---|-----------------|-----------|
@@ -30,33 +30,33 @@ Some blocks have two possible outcomes: a bottom gray path or a right orange pat
 
 See the images below for an example. The block named "Check Gripper Open" connects to the Continuous Move block through the bottom gray path and to the Wait block through the right orange path. In this case, the Check Gripper Open block is checking the state of gripper sensors. It follows the gray path if the gripper is open \(Checks Passed\) or it follows the right orange path if the gripper is closed \(Checks Not Passed\).
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Canvas-Flowchart-Example1.png)|![](../Images/TaskCanvas/Canvas-Flowchart-Example1-Select.png)|
 
 When you place a new block on the exit path of an existing block, Task Canvas creates the path connecting them. For information on how to create loops, disconnect paths, or reconnect paths, see [Block Programming](BlockProgramming.md).
 
 ## Special Block States
 
-|An incremental or robot motion block that was stopped midway through its execution displays a yellow **paused** icon. Press the **Last Executed**button in the Canvas Navigation menu to select and center the screen on the paused block.
+|An incremental or robot motion block that was stopped midway through its execution displays a yellow **paused** icon. Press the **Last Executed** button in the Canvas Navigation menu to select and center the screen on the paused block.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Block-State-Paused.png)|
 
 |If the last block that was executed finished its execution when stopping \(or stepping through\) a task, it displays a magenta**Last Executed** icon. Press the **Last Executed** button in the Canvas Execution menu to select and center the screen on the last executed block.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Block-State-LastExecuted.png)|
 
 |A block that can't be traced back to the Start block through paths is a**Detached block**. You can modify and step Detached blocks, but they don't execute as part of a task since there is no path to them on the flowchart. Add a Detached block back to the task by connecting a path to it.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Detach2.png)|
 
 |If you don't want your task to execute a block, but you're not ready to delete it, skip the block. A **Skipped block** stays connected to the flowchart, but it is passed over during task execution. Choose to skip to an available bottom or right path. Restore a block by tapping Unskip in the Block Editor.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Canvas-Flowchart-SkippedBlocks.png)|
 
 |A block that is missing a key parameter or device needed to execute is a **Template block**. A template block appears transparent with a red exclamation point. Template blocks can prevent the task from executing until you **Skip** them.
 
 Tap the red exclamation point to view the block's error message. Tap **BACK TO BLOCK** to center the screen on that template block. Tap **X** to close the error message.
 
-|![](../Images/TaskCanvas/TaskCanvas-Icon.png)|
+|![](../Images/TaskCanvas/Block-State-Template.png)|
 
 To restore a Template block:
 

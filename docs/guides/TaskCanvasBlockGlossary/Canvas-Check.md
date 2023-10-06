@@ -6,17 +6,17 @@ The Check block compares chosen parameters or inputs to expected values.
 
 If the inputs don't meet the expected conditions, the task moves on through the right path \(**Checks Not Passed**\).
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Block.png)|
 
 |In the Check block settings, choose the check conditions.
 
 Tap the **Block passes when** dropdown to choose:
 
--   **All match:**All comparisons must be true for the block to follow the bottom path.
+-   **All match:** All comparisons must be true for the block to follow the bottom path.
 
--   **Any match:**At least one of the conditions must be true for the block to follow the bottom path.
+-   **Any match:** At least one of the conditions must be true for the block to follow the bottom path.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings.png)![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-BlockPassesWhenDropdown.png)
 
 |
 
@@ -30,7 +30,7 @@ Conditions display as:
 
 To remove a line, tap the red Delete button.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-AddSignal.png)|
 
 The Check block can perform these checks:
 
@@ -51,15 +51,15 @@ The approximate comparisons, **≈** and **≉**, check if a Waypoint or Frame i
 
 For example, in the image below we check if the Current Robot Position is approximately at the same position as Waypoint-2, within +/-0.5 mm and +/-1 degree.
 
-![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-CheckPosition-LinearWaypoint.png)
 
 When you compare *linear positions*, you enter a Linear Tolerance and Rotation Tolerance. The **Linear Tolerance** defines the allowed linear distance from the checked position. The **Rotation Tolerance** defines the allowed rotation for each axis \(RX, RY, RZ\) from the checked position. The Check block fails if you use **≈** and any one of the axis rotations is off by more than the tolerance.
 
-![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-LinearWaypoint-LinearWaypoint.png)
 
 When you compare **joint positions**, you enter a Joint Tolerance. The Joint Tolerance defines the allowed rotation for each joint from the checked position's joint values. The Check block fails if you use **≈** and any one of the joint values is off by more than the tolerance.
 
-![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-CheckPosition-JointWaypoint.png)
 
 **Note:** **You may notice a mismatch between the linear rotational coordinates that you specify and the linear rotational coordinates that the robot reports.** For example, if you create a waypoint or frame with the \(Rx, Ry, Rz\) values of \(-150deg, 110deg, -165deg\) with respect to the Base Frame, Task Canvas may change these values to \(30deg, 70deg, 15deg\).
 

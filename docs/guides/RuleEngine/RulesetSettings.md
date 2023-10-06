@@ -10,9 +10,9 @@ In the Ruleset Devices table, select the checkboxes of devices that you want to 
 
 **Note:** Removing a device here does NOT remove it from other rulesets or from the Device Configuration app.
 
-Tap **APPLY AND SAVE**to save the changes and return to the ruleset's manager.
+Tap **APPLY AND SAVE** to save the changes and return to the ruleset's manager.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/RulesetSettings.png)
 
 |
 

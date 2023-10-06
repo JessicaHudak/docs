@@ -6,13 +6,13 @@ The Rule Engine is where you link device signals, system variables, and "if…th
 
 |When you first open the Rule Engine, the Load Ruleset screen appears. Once you create and save rulesets, they show up in the table.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/Status-Active.png)
 
 |
 
 |At the top of the screen, view the **Active** or **Stopped** status of the ruleset that most recently ran. **Stop** an Active ruleset and **Start** a Stopped ruleset here or in that ruleset's manager.
 
-|![](../Images/RuleEngine/RuleEngine-Icon.png)
+|![](../Images/RuleEngine/Status-Stopped.png)
 
 |
 

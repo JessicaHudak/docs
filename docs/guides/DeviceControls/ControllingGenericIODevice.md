@@ -6,11 +6,11 @@ In the **Output Functions** tab, tap **EXECUTE** next to a function that you wan
 
 For example, suppose you have a CNC mill. Two actions that you can do with its door are close it or open it. Each of these actions use the same signal, except one is set to LOW while the other is set to HIGH. When you execute the "Open the door" function, the "Close the door" function's status light turns from green to grey.
 
-|![](../Images/DeviceControls/DeviceControl-Icon.png)|![](../Images/DeviceControls/DeviceControl-Icon.png)|
+|![](../Images/DeviceControls/GenericIODevice-OutputFunctions-OpenDoor.png)|![](../Images/DeviceControls/GenericIODevice-OutputFunctions-CloseDoor.png)|
 
-In the **Input Functions**tab, see the status of read-only input functions. Functions with satisfied conditions have a green status light.
+In the **Input Functions** tab, see the status of read-only input functions. Functions with satisfied conditions have a green status light.
 
-![](../Images/DeviceControls/DeviceControl-Icon.png)
+![](../Images/DeviceControls/GenericIODevice-InputFunctions-DoorClosed.png)
 
 **Parent topic:**[Device Control](../DeviceControls/DeviceControlOverview.md)
 

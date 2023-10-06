@@ -4,17 +4,17 @@
 
 Use a Continuous Move to program a motion that requires more than one move type or multiple points to define the motion.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-Continuous-Block.png)|
 
-|The **advantages**of using a Continuous Move are:
+|The **advantages** of using a Continuous Move are:
 
 -   A cleaner Canvas: Instead of a complex motion with 10 waypoints requiring 10 Absolute Move blocks, a single Continuous Move block can contain all 10 waypoints.
 
 -   Smoother and faster motion: The robot executes changes in direction more fluidly and doesn't need to come to a complete stop between targets.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-Continuous-Settings-Main.png)|
 
-|In the **Main**tab, the **Target**table shows the list of positions and motions that the robot executes.
+|In the **Main** tab, the **Target** table shows the list of positions and motions that the robot executes.
 
 Tap **ADD +** to select a motion to add to the table.
 
@@ -22,7 +22,7 @@ From the dropdown, select an option.
 
 **Tip:** To program Grid or Array Moves into a Continuous Move, look for the **Resolve Position to Waypoint** feature in those block descriptions.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-Continuous-Settings-Main-Add.png)|
 
 |Motion Type|Description|
 |-----------|-----------|
@@ -35,7 +35,7 @@ From the dropdown, select an option.
 
 To reverse the order of all targets, deselect all targets and tap **Reverse Order**. Use this when you want to duplicate and reverse a Continuous Move you programmed earlier.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Robot-Continuous-Settings-Main-Select.png)|
 
 To edit a target, select it on the table and tap **Edit**. You may edit one target at a time.
 

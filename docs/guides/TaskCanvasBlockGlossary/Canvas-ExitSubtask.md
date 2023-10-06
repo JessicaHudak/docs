@@ -6,11 +6,11 @@ The Exit block completes an inline subtask and exits to the canvas where the sub
 
 **Note:** The Exit block is not the same as the Finish block. The Finish block stops all subtasks, including the main task. Only use the Finish block to stop all activity in your task.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-ExitSubtask-Block.png)|
 
 |In the Exit block settings, choose whether the subtask exits to the Bottom or Right path of the **Start Subtask: Inline** block it returns to.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Block-Wait.png)|
+|![](../Images/TaskCanvasBlockGlossary/Canvas-ExitSubtask-Settings.png)|
 
 **Parent topic:**[Canvas Blocks](../TaskCanvasBlockGlossary/Canvas-Overview.md)
 

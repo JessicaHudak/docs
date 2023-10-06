@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Network
 
 |The Network screen is where you control network-related settings.
@@ -16,7 +12,7 @@ sidebar_position: 2
 
  If you toggle on **Enable Forge Edge** and set up a network connection to your computer, you can collect real-time data of your ForgeOS system.
 
-|![](../Images/Settings/Settings-Icon.png)|
+|![](../Images/Settings/Network.png)|
 
 **Important:** For security reasons, the Forge Edge toggle is disabled by default. It is your responsibility to ensure that you trust any network that you connect the ForgeOS system to \(e.g., deploy within an isolated LAN or a VPN\) and that you follow all safety guidelines in your robot OEM manual.
 
