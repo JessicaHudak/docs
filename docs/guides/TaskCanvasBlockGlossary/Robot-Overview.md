@@ -1,3 +1,7 @@
+---
+sidebar_position: 18
+---
+
 # Robot Command Blocks
 
 The Robot Command blocks are available in the block menu for active robot devices. They include robot move blocks, robot IO blocks, and other robot command blocks.

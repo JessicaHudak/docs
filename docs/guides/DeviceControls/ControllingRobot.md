@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Controlling a Robot
 
 When you select a robot, the control panel depends on the control mode you select. The available modes are **Jog, Jump, Absolute Position,** and **Signals**.

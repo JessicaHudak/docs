@@ -1,3 +1,7 @@
+---
+sidebar_position: 30
+---
+
 # Smart Gripper Blocks
 
 |The Smart Gripper blocks include **Close Gripper**, **Open Gripper**, **Check Part Present**, and **Granular Control**.

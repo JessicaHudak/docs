@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Math Block
 
 |The Math block executes mathematical expressions to set the values of variables.

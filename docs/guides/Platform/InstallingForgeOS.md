@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Installing ForgeOS
 
 Follow these steps to install ForgeOS and sign in to the Admin role. Installation takes about 30 minutes, depending on the resources of the IPC.

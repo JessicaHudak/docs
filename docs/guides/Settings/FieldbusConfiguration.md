@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Fieldbus Configuration
 
 The Fieldbus Configuration screen is where you add, delete, and change the state of Fieldbus interfaces.
@@ -8,7 +12,7 @@ The Fieldbus Configuration screen is where you add, delete, and change the state
 
  Tap the toggle switch in the **Enabled** column to run or stop the interface.
 
- Tap the blue**NEW +** button to create a new Fieldbus configuration.
+ Tap the blue **NEW +** button to create a new Fieldbus configuration.
 
 |![](../Images/Settings/FieldbusConfiguration.png)|
 

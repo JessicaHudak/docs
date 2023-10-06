@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Task Settings
 
 From the File Menu, tap **Task Settings** to change the settings of your open task.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Adding a Clamping Gripper
 
 Follow these instructions for configuring a pneumatic or electronic clamping gripper. For an advanced clamping device, such as one with digital force control, check if it is supported in the Device Library.

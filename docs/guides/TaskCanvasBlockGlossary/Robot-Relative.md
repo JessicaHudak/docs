@@ -1,3 +1,7 @@
+---
+sidebar_position: 21
+---
+
 # Relative Move Block
 
 |The Relative Move block performs a motion relative to the robot's position when the block executes. Because the motion is relative, the ending position depends on the starting position.

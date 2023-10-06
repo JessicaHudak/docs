@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 # Create and Manage Waypoints
 
 A **Waypoint** defines the **pose** \(position and orientation\) of the robot relative to the origin of a **Frame**. Define waypoints using the **Base Frame** \(at the base of the robot\) or a **custom Frame**.

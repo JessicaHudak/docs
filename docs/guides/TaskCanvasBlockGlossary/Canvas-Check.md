@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Check Block
 
 The Check block compares chosen parameters or inputs to expected values.

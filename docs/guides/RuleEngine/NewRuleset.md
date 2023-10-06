@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # New Ruleset
 
 To create a ruleset, select **NEW +** from the Rule Engine main screen or **New Ruleset** from the File Menu.

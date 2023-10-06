@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Block Glossary
 
 The types of **blocks** available in Task Canvas depend on the devices you added in Task Settings.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Rule Engine
 
 The Rule Engine is where you link device signals, system variables, and "if…then" statements. Run these processes in the background of Forge/OS, even when a Task Canvas task isn't executing! This app is great for instructing stack lights to be one color when a task is running and another when the task is idle \(and for many other uses\).

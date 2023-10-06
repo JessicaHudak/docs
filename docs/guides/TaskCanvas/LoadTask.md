@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Load Task
 
 Load a task from the Task Canvas main screen or from the File Menu.

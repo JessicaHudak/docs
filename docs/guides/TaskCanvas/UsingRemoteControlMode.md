@@ -1,3 +1,7 @@
+---
+sidebar_position: 17
+---
+
 # Using Remote Control Mode
 
 Remote Control mode allows you to communicate with ForgeOS from an external HMI.

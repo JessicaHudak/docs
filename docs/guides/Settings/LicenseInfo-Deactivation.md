@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # Deactivating ForgeOS with a License Code
 
 To transfer a ForgeOS license from one machine to another, first deactivate the license. Then activate it on the new machine.

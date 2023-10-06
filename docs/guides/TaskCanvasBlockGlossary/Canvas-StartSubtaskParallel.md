@@ -1,3 +1,7 @@
+---
+sidebar_position: 12
+---
+
 # Subtask \> Start Subtasks: Parallel Block
 
 The Start Subtasks: Parallel block starts one or more parallel subtasks of your choice.

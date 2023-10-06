@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Controlling a Clamping Gripper
 
 The clamping gripper panel lets you open the gripper, close the gripper, or relax the gripper. The relaxed state does not apply any force to close or open. The controls are set by the device's configuration.

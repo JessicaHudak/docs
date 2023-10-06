@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Controlling a Robotiq Adaptive Gripper
 
 When you select a Robotiq adaptive gripper to control, the app shows the gripper position status and controls.

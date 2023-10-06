@@ -1,3 +1,7 @@
+---
+sidebar_position: 33
+---
+
 # Clamping Gripper Command Blocks
 
 |The Clamping Gripper blocks include **Close Gripper**, **Open Gripper**, and **Relax Gripper**.

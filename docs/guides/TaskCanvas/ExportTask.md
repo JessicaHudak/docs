@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Exporting Tasks
 
 Exported tasks include all local and global parameters used in the task. The exported file is a copy, so the original file stays on the READY pendant.

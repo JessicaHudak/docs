@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Controlling a Generic IO Device
 
 When you select a generic IO device, the app shows the status of its output and input functions.

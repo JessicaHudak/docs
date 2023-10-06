@@ -1,3 +1,7 @@
+---
+sidebar_position: 15
+---
+
 # User Decision Block
 
 The User Decision block pauses execution until you instruct the task to resume or stop.

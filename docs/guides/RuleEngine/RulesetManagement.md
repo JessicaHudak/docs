@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Ruleset Management
 
 |Inside a ruleset's manager, there is a **File menu** on the left side. The File menu lets you create or load a ruleset, save the ruleset, open ruleset settings, and access Help.

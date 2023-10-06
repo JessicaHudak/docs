@@ -1,3 +1,7 @@
+---
+sidebar_position: 32
+---
+
 # Zero Sensor Block
 
 |The Zero Sensor block zeroes or biases the sensor when it executes. There are no editable settings.

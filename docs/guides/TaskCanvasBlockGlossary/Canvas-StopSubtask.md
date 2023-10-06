@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 # Subtask \> Stop Subtasks Block
 
 The Stop Subtasks block stops one or more selected subtasks and immediately continues along the bottom path.

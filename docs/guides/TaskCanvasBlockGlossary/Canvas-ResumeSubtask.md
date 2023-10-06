@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # Subtask \> Resume Subtasks Block
 
 |The Resume Subtasks block resumes one or more subtasks that you paused with a Pause Subtasks block.|![](../Images/TaskCanvasBlockGlossary/Canvas-ResumeSubtasks-Block.png)|

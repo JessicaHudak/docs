@@ -1,3 +1,7 @@
+---
+sidebar_position: 22
+---
+
 # Circular Move Block
 
 |The Circular Move block performs an arc motion \(with a constant radius\) relative to the robot's position when the block executes.

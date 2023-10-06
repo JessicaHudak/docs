@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # Block Programming
 
 ## Add Blocks

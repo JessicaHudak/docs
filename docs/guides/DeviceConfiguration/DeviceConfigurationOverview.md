@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Device Configuration
 
 The Device Configuration app is used to add and manage devices in ForgeOS. Sign in as an **Admin** to access it. Supported devices include robot arms, PLCs, IO devices, end of arm tooling, and a wide range of fieldbus peripherals.

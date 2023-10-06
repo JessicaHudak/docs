@@ -1,3 +1,7 @@
+---
+sidebar_position: 16
+---
+
 # Running a Task
 
 |The Runtime Controls menu is where you execute the task.

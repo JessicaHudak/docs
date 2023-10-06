@@ -1,3 +1,7 @@
+---
+sidebar_position: 23
+---
+
 # Continuous Move Block
 
 |The Continuous Move block performs a fluid and unbroken motion through all the programmed positions and relative motions.

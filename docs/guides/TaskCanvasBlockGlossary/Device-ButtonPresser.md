@@ -1,3 +1,7 @@
+---
+sidebar_position: 36
+---
+
 # Button Presser Blocks
 
 |The Button Presser blocks include **Press Button** and **Release Button**.

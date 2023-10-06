@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Help Viewer
 
 The Help Viewer displays additional information and instructions for using features in ForgeOS.

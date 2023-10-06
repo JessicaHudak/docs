@@ -1,3 +1,7 @@
+---
+sidebar_position: 37
+---
+
 # Pedal Presser Blocks
 
 |The Pedal Presser blocks include **Press Pedal,** **Release Pedal**, and **Relax Pedal**.

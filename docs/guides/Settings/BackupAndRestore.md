@@ -1,3 +1,7 @@
+---
+sidebar_position: 12
+---
+
 # Backup and Restore
 
 |To take a backup of all user-generated data \(including devices, tasks, rulesets, and system settings\), tap **CREATE BACKUP+**. Enter a backup name, then tap **CREATE BACKUP AND RESTART**.**Note:** Pressing “Create Backup and Restart” will close all apps and restart ForgeOS. Save all your work in all apps before creating a backup and restarting.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Subtask \> Pause Subtasks Block
 
 |The Pause Subtasks block pauses one or more subtasks until you resume them with a Resume Subtasks block.|![](../Images/TaskCanvasBlockGlossary/Canvas-PauseSubtasks-Block.png)|

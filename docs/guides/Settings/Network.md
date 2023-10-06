@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Network
 
 |The Network screen is where you control network-related settings.

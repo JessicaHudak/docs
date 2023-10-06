@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Controlling a Force Sensor
 
 When you select a force torque sensor, the app displays an active graph of force and torque over time.

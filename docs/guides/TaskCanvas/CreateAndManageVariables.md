@@ -1,3 +1,7 @@
+---
+sidebar_position: 15
+---
+
 # Create and Manage Variables
 
 **Variables** store and transmit values between blocks and devices. Use variables for decision-making with **Check** blocks. Use **Set** and **User Input** blocks to change variable values. Four types of variables are possible:

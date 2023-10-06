@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # System Update
 
 The System Update screen is where you update ForgeOS from a USB flash drive or an online server.

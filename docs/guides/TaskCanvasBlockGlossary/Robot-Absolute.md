@@ -1,3 +1,7 @@
+---
+sidebar_position: 20
+---
+
 # Absolute Move Block
 
 |The Absolute Move block performs a motion to a single position defined by a waypoint.

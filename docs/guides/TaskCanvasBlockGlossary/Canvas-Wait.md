@@ -1,3 +1,7 @@
+---
+sidebar_position: 17
+---
+
 # Wait Block
 
 The Wait block pauses execution for a defined length of time.

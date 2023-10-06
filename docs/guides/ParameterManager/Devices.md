@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Devices
 
 The Devices tab displays frame, float, double, integer, boolean, and string data relevant to the selected device.

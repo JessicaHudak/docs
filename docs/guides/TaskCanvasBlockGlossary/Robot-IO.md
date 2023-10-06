@@ -1,3 +1,7 @@
+---
+sidebar_position: 19
+---
+
 # Robot I/O Blocks
 
 The Check and Set blocks are the same as the Canvas Check and Set blocks, but the device is filtered to the robot device.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Device Control
 
 Use the Device Control app to manually control devices while programming a task or to recover from errors.

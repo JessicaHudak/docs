@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Controlling a Network I/O Device
 
 When you select an I/O device, the app shows selection tabs for **Input Signals**, **Output Signals**, and **Config Signals**. The Config Signals tab is available for the EtherNet/IP Generic Device only.

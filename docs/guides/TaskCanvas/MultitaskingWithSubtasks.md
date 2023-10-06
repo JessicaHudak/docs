@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # Multitasking with Subtasks
 
 Task Canvas lets you create more than one canvas within a single task. Each of these canvases, or **subtasks**, has its own flowchart that can run inline or parallel to your **Main Task**. Use subtasks to multitask or to organize blocks into a functional group.

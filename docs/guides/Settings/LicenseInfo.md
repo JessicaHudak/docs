@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # License Information
 
 The License Information screen shows the status of your ForgeOS license. If the license is active, the page shows the license code. If it’s your first time booting ForgeOS, you are taken directly to this page to activate ForgeOS.

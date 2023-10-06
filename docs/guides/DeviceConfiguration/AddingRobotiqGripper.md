@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Adding a Robotiq Adaptive Gripper
 
 Follow these instructions to add a Robotiq adaptive gripper.

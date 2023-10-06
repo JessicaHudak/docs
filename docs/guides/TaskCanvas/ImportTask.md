@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Importing Tasks
 
 Imported tasks include all local and global parameters used in the task. The imported file is a copy, so the original file stays on the USB flash drive.

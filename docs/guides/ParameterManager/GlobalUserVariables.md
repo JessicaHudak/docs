@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Global User Variables
 
 The Global User Variables tab displays data for each global variable. If a variable is **global**, you can access it in the Parameter Manager and in all Task Canvas tasks.

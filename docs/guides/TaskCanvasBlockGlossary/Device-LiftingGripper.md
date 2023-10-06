@@ -1,3 +1,7 @@
+---
+sidebar_position: 34
+---
+
 # Lifting Gripper Command Blocks
 
 |The Lifting Gripper blocks include **Grab Part** and **Release Part**.

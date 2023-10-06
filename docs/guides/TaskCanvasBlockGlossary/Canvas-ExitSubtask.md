@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Subtask \> Exit: Inline Subtask Block
 
 The Exit block completes an inline subtask and exits to the canvas where the subtask was called. Without an Exit block in an inline subtask, the subtask and the calling task finish after executing the last available block.

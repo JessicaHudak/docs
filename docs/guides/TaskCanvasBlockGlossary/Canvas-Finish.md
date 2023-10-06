@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Finish Block
 
 The Finish block marks the end of the task.

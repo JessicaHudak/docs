@@ -1,3 +1,7 @@
+---
+sidebar_position: 26
+---
+
 # Set TCP/Payload Block
 
 The TCP/Payload block sets the robot's Active Tool Center Point \(TCP\) and Active Payload. While the task is running, the Active TCP and Payload stay as the values set until another TCP/Payload block is executed.

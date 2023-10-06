@@ -1,3 +1,7 @@
+---
+sidebar_position: 24
+---
+
 # Grid Move Block
 
 |The Grid Move block creates a repeating pattern of positions that the robot moves to, one at a time. Each time the block executes, the robot moves to the next position in the grid and then continues to the next block. This continues until the robot has moved to all the positions \(which prompts it to restart at the beginning of the grid\).

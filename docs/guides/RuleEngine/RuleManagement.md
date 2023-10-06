@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Rule Management
 
 Inside a ruleset's manager, create, enable, edit, and delete that ruleset's rule\(s\).

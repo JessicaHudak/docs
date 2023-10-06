@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Features of a Task
 
 Create a **task** by combining blocks into a **flowchart**. Create additional flowcharts as **subtasks** to execute functions inline or at the same time as the main task. For more information about subtasks, see [Multitasking with Subtasks](MultitaskingWithSubtasks.md).

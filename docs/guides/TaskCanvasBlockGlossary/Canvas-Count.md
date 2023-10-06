@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Count Block
 
 The Count block counts up from zero to a chosen number.

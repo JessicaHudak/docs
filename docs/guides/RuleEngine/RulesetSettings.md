@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Ruleset Settings
 
 From the File Menu, tap**Ruleset Settings** to change the settings of your open ruleset.

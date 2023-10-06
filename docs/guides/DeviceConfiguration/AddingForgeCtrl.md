@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Adding a Forge/Ctrl
 
 The Forge/Ctrl comes with an internal PLC that gives you access to 24V digital I/O, 4mm pneumatic ports, and 6mm pneumatic ports. To access the digital I/O and pneumatic features, first add the Forge/Ctrl from the Device Library.

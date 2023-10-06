@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Set Block
 
 |The Set block sets the values or states for chosen variables and parameters.

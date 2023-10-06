@@ -1,3 +1,7 @@
+---
+sidebar_position: 14
+---
+
 # Create and Manage Frames
 
 **Frames** are Cartesian reference frames for moving the robot and defining **Waypoints**. Every robot has a default Base frame and TCP frame. You can also create custom 1-point or 3-point frames.

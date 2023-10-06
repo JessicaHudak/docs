@@ -1,3 +1,7 @@
+---
+sidebar_position: 25
+---
+
 # Array Move Block
 
 |The Array Move specifies a custom list of waypoints that the robot moves to, one at a time, each time the block executes.

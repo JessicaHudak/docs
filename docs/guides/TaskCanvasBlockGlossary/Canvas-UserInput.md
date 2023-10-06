@@ -1,3 +1,7 @@
+---
+sidebar_position: 16
+---
+
 # User Input Block
 
 |The User Input block pauses execution and prompts you to choose the values of task variables before moving on.

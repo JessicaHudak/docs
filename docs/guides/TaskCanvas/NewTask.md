@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # New Task
 
 To create a task, select **NEW +** from the Task Canvas Load Task screen or **New Task** from the File Menu.

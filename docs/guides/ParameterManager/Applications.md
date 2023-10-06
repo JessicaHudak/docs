@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Applications
 
 The Applications tab displays float, integer, date/time, boolean, and string data relevant to the selected app.

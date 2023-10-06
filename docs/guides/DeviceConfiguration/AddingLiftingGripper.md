@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Adding a Lifting Gripper
 
 Follow the instructions in this section to configure a generic lifting gripper \(such as a suction gripper or magnetic gripper\).
