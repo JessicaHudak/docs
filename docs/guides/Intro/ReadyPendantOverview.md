@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # READY Pendant Overview
@@ -12,30 +12,33 @@ The READY pendant has dual-channel safety features for use with robots and other
 
 Follow this manual to avoid malfunctions or damage to the pendant.
 
-|CAUTION: HANDLE WITH CARE|
-|-------------------------|
-|-   Do not use the READY pendant if defective or damaged.
--   Do not use outdoors.
--   Do not expose to excessive dust, humidity, or electromagnetic fields.
--   Do not crush or damage the cable with any object.
--   Do not lay the cable over sharp edges.
--   Never clean the housing, touch screen, or operating elements with solvents, scouring agents, or scrubbing sponges. Use only a soft cloth and mild detergent.
--   Avoid contact with liquids.
--   Make sure that no foreign objects or liquids can penetrate the device.
--   Check the cables and protective covers regularly for damage.
--   Do not leave near heat sources or in direct sunlight.
--   Avoid dropping and don't place on unstable surfaces.
--   Do not open the housing. The READY pendant is sensitive to electrostatic discharge.
--   To avoid damage to the touch screen, do not place the READY pendant on a surface with the screen facing down.
--   Never use sharp objects to operate the touch screen and keypad \(e.g., screwdriver, ballpoint pen, etc.\). Use only your fingers or a touch-pen.
--   Make sure your hands or gloves are clean and free of oils or abrasive debris.
+:::caution
 
-|
+**Handle the READY pendant with care.**
+
+- Do not use the READY pendant if defective or damaged.
+- Do not use outdoors.
+- Do not expose to excessive dust, humidity, or electromagnetic fields.
+- Do not crush or damage the cable with any object.
+- Do not lay the cable over sharp edges.
+- Never clean the housing, touch screen, or operating elements with solvents, scouring agents, or scrubbing sponges. Use only a soft cloth and mild detergent.
+- Avoid contact with liquids.
+- Make sure that no foreign objects or liquids can penetrate the device.
+- Check the cables and protective covers regularly for damage.
+- Do not leave near heat sources or in direct sunlight.
+- Avoid dropping and don't place on unstable surfaces.
+- Do not open the housing. The READY pendant is sensitive to electrostatic discharge.
+- To avoid damage to the touch screen, do not place the READY pendant on a surface with the screen facing down.
+- Never use sharp objects to operate the touch screen and keypad \(e.g., screwdriver, ballpoint pen, etc.\). Use only your fingers or a touch-pen.
+- Make sure your hands or gloves are clean and free of oils or abrasive debris.
+
+:::
+
 
 ## Specifications
 
-|READY pendant Specifications|
-|----------------------------|
+|**Category**|**READY Pendant Specification**|
+|------------------|------|
 |Dimensions|215\(W\) x 284\(H\) x 69\(D\) mm \(without mounting bracket\)|
 |Weight|Approx. 1120 g|
 |Display|10.1" TFT, Projected capacitive touch screen, multi-touch 800 x 1280 pixel \(16:10\) WXGA|
@@ -52,7 +55,7 @@ Follow this manual to avoid malfunctions or damage to the pendant.
 
 The READY pendant cable includes an RJ45 Ethernet connector and 15 flying leads. The Ethernet connector is for communication with the IPC. The flying leads with end ferrules are for the pendant power and safety features. See the table below for a description of the leads.
 
-|Pendant Cable Lead|Signal|
+|**Pendant Cable Lead**|**Signal**|
 |------------------|------|
 |Brown|Three-Position Enabling Switch Circuit 1|
 |Yellow|Three-Position Enabling Switch Circuit 1|
@@ -79,60 +82,29 @@ The READY pendant cable includes an RJ45 Ethernet connector and 15 flying leads.
 
 See the images and table below for READY pendant features.
 
-**Note:** The hand strap for holding the pendant is not shown. Set up the strap for either left-handed or right-handed use.
+:::info
+The hand strap for holding the pendant is not shown. Set up the strap for either left-handed or right-handed use.
+:::
 
-|![](../Images/Intro/ReadyPendant-Front-Callouts.png)|![](../Images/Intro/ReadyPendant-Back-Callouts.png)|
+
+![](../Images/Intro/ReadyPendant-Front-Callouts.png)
+![](../Images/Intro/ReadyPendant-Back-Callouts.png)
 
 |No.|Feature|Description|
 |---|-------|-----------|
-|1|Emergency Stop Button|Trigger an emergency stop state with this red-yellow button \(DPST\).Press down to open the safety circuits. This stops the robot and other devices. Twist clockwise to release the button and close the circuits.
-
-|
+|1|Emergency Stop Button|Trigger an emergency stop state with this red-yellow button \(DPST\).Press down to open the safety circuits. This stops the robot and other devices. Twist clockwise to release the button and close the circuits.|
 |2|Touch Screen|Interact with ForgeOS on this multi-touch display.|
-|3|Mode Selector Key Switch|Insert the key and turn to select between **Run Mode** \(clockwise\) and **Teach Mode** \(counter-clockwise\).|![](../Images/Intro/ReadyPendant-Top.png)|
-|4|Status LEDs|1. **Green Power LED** - Solid green means the pendant is on.
+|3|Mode Selector Key Switch|Insert the key and turn to select between **Run Mode** \(clockwise\) and **Teach Mode** \(counter-clockwise\).|
+|4|Status LEDs|**Green Power LED** - Solid green means the pendant is on. **Green Network LED** - Solid green means a good connection to the IPC. **Red Error LED** - Solid red means there is a device error. Off indicates normal system status.|
+|5|Jog Buttons|Jog the most recently selected robot in the selected Frame. If you select **Linear** in the Device Control app, these jog buttons move the robot's TCP in X, Y, Z, RX, RY, and RZ. If you select **Joint**, the buttons move the robot joints. Holding two buttons in the same row at one time results in no motion.|
+|6|Speed Control Buttons|**Decrease Speed** and **Increase Speed**. While a task is running, control the runtime speed slider. While a task is not running, control the speed in the Device Control app.|
+|7|Start/Stop Buttons|**Start**: Use in the Task Canvas app to start the task \(Run mode\). Use in the Device Control app to execute a jump/absolute position command. **Stop**: Stop Task Canvas execution and all robot motions.|
+|8|Reset/Step Buttons|**Reset**: Send a reset signal to all devices to fix errors. **Step**: Execute the selected block in Task Canvas.|
+|9|Three-Position Enabling Switch|Enable robot motion control with this three-position switch \(DPDT\). Most robots require this enabling device when the READY pendant is in Teach Mode. To use, press the switch into the middle position \(ON\). If you release or squeeze the switch too tightly in Teach Mode, the robot will not move \(OFF\).|
+|10|USB Port|Connect USB devices to the pendant. Connect a USB keyboard to type in fields on the screen.|
 
- 2. **Green Network LED** - Solid green means a good connection to the IPC.
-
- 3. **Red Error LED** - Solid red means there is a device error. Off indicates normal system status.
-
-|![](../Images/Intro/ReadyPendant-LEDs.png)|
-|5|Jog Buttons|Jog the most recently selected robot in the selected Frame.
-
- If you select **Linear** in the Device Control app, these jog buttons move the robot's TCP in X, Y, Z, RX, RY, and RZ. If you select **Joint**, the buttons move the robot joints.
-
- Holding two buttons in the same row at one time results in no motion.
-
-|![](../Images/Intro/ReadyPendant-JogButtons-Cropped.png)|
-|6|Speed Control Buttons|**Decrease Speed** \(left\) and **Increase Speed** \(right\).
-
- While a task is running, control the runtime speed slider.
-
- While a task is not running, control the speed in the Device Control app.
-
-|![](../Images/Intro/ReadyPendant-Speed.png)|
-|7|Start/Stop Buttons|**Start** \(left\): Use in the Task Canvas app to start the task \(Run mode\). Use in the Device Control app to execute a jump/absolute position command.
-
- **Stop** \(right\): Stop Task Canvas execution and all robot motions.
-
-|![](../Images/Intro/ReadyPendant-StartStop.png)|
-|8|Reset/Step Buttons|**Reset** \(left\): Send a reset signal to all devices to fix errors.
-
- **Step** \(right\): Execute the selected block in Task Canvas.
-
-|![](../Images/Intro/ReadyPendant-ResetStep.png)|
-|9|Three-Position Enabling Switch|Enable robot motion control with this three-position switch \(DPDT\).
-
- Most robots require this enabling device when the READY pendant is in Teach Mode.
-
- To use, press the switch into the middle position \(ON\). If you release or squeeze the switch too tightly in Teach Mode, the robot will not move \(OFF\).
-
-|![](../Images/Intro/ReadyPendant-EnablingSwitchDiagram.png)|
-|10|USB Port|Connect USB devices to the pendant.**Tip:** Connect a USB keyboard to type in fields on the screen.
-
-|
-
-**Tip:** If you forget what the keypad buttons do, tap the arrow in the bottom-right corner \(or swipe left from the right edge of the screen\) to see labels! If you have a robot selected to jog in the Device Control app and it's in Teach/Program mode, this legend lists the currently-selected Active TCP, move type, frame, and speed. If you do not have a robot selected or if it's unable to jog, the -/+ section of this legend appears blank.
-
-|![](../Images/Intro/ReadyPendant-Legend-Linear.png)|![](../Images/Intro/ReadyPendant-Legend-NoRobotSelected.png)|
+:::tip
+If you forget what the keypad buttons do, tap the arrow in the bottom-right corner \(or swipe left from the right edge of the screen\) to see labels! If you have a robot selected to jog in the Device Control app and it's in Teach/Program mode, this legend lists the currently-selected Active TCP, move type, frame, and speed. If you do not have a robot selected or if it's unable to jog, the -/+ section of this legend appears blank.
+![](../Images/Intro/ReadyPendant-Legend-Linear.png)|![](../Images/Intro/ReadyPendant-Legend-NoRobotSelected.png)
+:::
 
