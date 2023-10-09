@@ -8,5 +8,3 @@ The **Home Screen** shows all apps installed on ForgeOS. Return to the Home Scre
 
 ![](../Images/Platform/Home.png)
 
-**Parent topic:**[ForgeOS Platform](../Platform/PlatformOverview.md)
-

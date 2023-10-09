@@ -26,6 +26,3 @@ Follow these steps to create system diagnostic information when you have a probl
 
     ![](../Images/Settings/SystemInfo-Diagnostic-Zip.png)
 
-
-**Parent topic:**[System Information](../Settings/SystemInfo.md)
-

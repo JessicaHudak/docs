@@ -8,46 +8,38 @@ To transfer a ForgeOS license from one machine to another, first deactivate the 
 
 There are two methods to deactivate ForgeOS: **Online license deactivation** and **offline license deactivation**.
 
-The table below lists the requirements for each method.
+Below are the requirements for each method.
 
-|Online License Deactivation|Offline License Dectivation|
-|---------------------------|---------------------------|
-|-   An internet-connected ForgeOS
+**Online License Deactivation:**
+-   An internet-connected ForgeOS
 
-|-   A 2GB or larger USB flash drive
+**Offline License Dectivation:**
+-   A 2GB or larger USB flash drive
 -   An internet-connected PC
 
+On the Settings app main screen, tap **License Info**.
 
-|
+![](../Images/Settings/Home.png)
 
-**Note:** If you are unable to deactivate a ForgeOS license, contact READY Robotics Support.
+Choose **ONLINE LICENSE DEACTIVATION** if ForgeOS is connected to the internet. If not, choose **OFFLINE LICENSE DEACTIVATION**.
 
-1.  On the Settings app main screen, tap **License Info**.
+![](../Images/Settings/License-Deactivation.png)
 
-    ![](../Images/Settings/Home.png)
+In the pop-up, tap **DEACTIVATE** to confirm that you want to deactivate your license.
 
-2.  Choose **ONLINE LICENSE DEACTIVATION** if ForgeOS is connected to the internet. If not, choose**OFFLINE LICENSE DEACTIVATION**.
+If you chose online license deactivation, you're done!
 
-    ![](../Images/Settings/License-Deactivation.png)
+If you chose offline license deactivation, follow these steps:
 
-3.  In the pop-up, tap **DEACTIVATE** to confirm that you want to deactivate your license.
+Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
 
-4.  If you chose online license deactivation, you're done!
+![](../Images/Settings/License-Deactivation-Offline-Step1.png)
 
-5.  If you chose offline license deactivation, follow these substeps:
+When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to finish deactivating the license using an internet-connected PC.
 
-    1.  Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
+![](../Images/Settings/License-Deactivation-Offline-Step2.png)
 
-        ![](../Images/Settings/License-Deactivation-Offline-Step1.png)
+Tap **FINISH**.
 
-    2.  When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to finish deactivating the license using an internet-connected PC.
-
-        ![](../Images/Settings/License-Deactivation-Offline-Step2.png)
-
-    3.  Tap **FINISH**.
-
-    4.  ForgeOS returns to the licensing home screen and shows an inactive license. If the license status isn't inactive, restart these license deactivation steps.
-
-
-**Parent topic:**[License Information](../Settings/LicenseInfo.md)
+ForgeOS returns to the licensing home screen and shows an inactive license. If the license status isn't inactive, restart these license deactivation steps.
 

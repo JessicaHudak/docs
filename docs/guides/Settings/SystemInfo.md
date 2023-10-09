@@ -9,9 +9,3 @@ The System Information screen is where you view the ForgeOS version information,
 See [Creating a System Diagnostic File](SystemInfo-CreatingSystemDiagnosticFile.md) for how to give diagnostic information to READY Support.
 
 ![](../Images/Settings/SystemInfo.png)
-
--   **[Creating a System Diagnostic File](../Settings/SystemInfo-CreatingSystemDiagnosticFile.md)**  
-
-
-**Parent topic:**[Settings](../Settings/SettingsOverview.md)
-

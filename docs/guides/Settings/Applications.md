@@ -19,7 +19,7 @@ If you disable the toggle, the label switches to “**Dynamic**”. Your app sel
 -   The app that was used before the previously-used app is on the left.
 
 
-|![](../Images/Settings/Applications-Pinned.png)|![](../Images/Settings/Applications-Dynamic.png)|
+![](../Images/Settings/Applications-Pinned.png)
 
-**Parent topic:**[Settings](../Settings/SettingsOverview.md)
+![](../Images/Settings/Applications-Dynamic.png)
 
