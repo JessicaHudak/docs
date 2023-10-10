@@ -8,5 +8,3 @@ From the File menu, tap **Save Ruleset** to save the changes you made to the ope
 
 Tap **Save Ruleset As** to save the ruleset with a new name. After saving a ruleset with a new name, you are editing the new ruleset.
 
-**Parent topic:**[Ruleset Management](../RuleEngine/RulesetManagement.md)
-
