@@ -8,10 +8,3 @@ The Parameter Manager app is where you view and modify system-wide data. Dependi
 
 ![](../Images/ParameterManager/ParameterManager-Icon.png)
 
--   **[Global User Variables](../ParameterManager/GlobalUserVariables.md)**  
-
--   **[Applications](../ParameterManager/Applications.md)**  
-
--   **[Devices](../ParameterManager/Devices.md)**  
-
-
