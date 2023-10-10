@@ -6,13 +6,16 @@ sidebar_position: 3
 
 The Check block compares chosen parameters or inputs to expected values.
 
-|If the inputs meet the expected conditions, the task moves on through the bottom path \(**Checks Passed**\).
+If the inputs meet the expected conditions, the task moves on through the bottom path \(**Checks Passed**\).
 
 If the inputs don't meet the expected conditions, the task moves on through the right path \(**Checks Not Passed**\).
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Block.png)|
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Block.png)
 
-|In the Check block settings, choose the check conditions.
+In the Check block settings, choose the check conditions.
+
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings.png)
+
 
 Tap the **Block passes when** dropdown to choose:
 
@@ -20,21 +23,18 @@ Tap the **Block passes when** dropdown to choose:
 
 -   **Any match:** At least one of the conditions must be true for the block to follow the bottom path.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings.png)![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-BlockPassesWhenDropdown.png)
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-BlockPassesWhenDropdown.png)
 
-|
 
 By default, a Check block performs the check right away. To make the Check block check continuously for a set period of time, toggle the **Enable Timer** switch and enter a timer duration. When the conditions are met, the block passes to the bottom path and the timer resets for the next execution. If the conditions are not met before the time expires, the block moves to the right path and the timer resets for the next execution.
 
-|Tap **ADD+** to add a condition to the block.
+Tap **ADD+** to add a condition to the block.
 
-Conditions display as:
-
-\[Parameter or Signal\] \[Operator\] \[Value\].
+Conditions display as: \[Parameter or Signal\] \[Operator\] \[Value\].
 
 To remove a line, tap the red Delete button.
 
-|![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-AddSignal.png)|
+![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-AddSignal.png)
 
 The Check block can perform these checks:
 
@@ -65,9 +65,9 @@ When you compare **joint positions**, you enter a Joint Tolerance. The Joint Tol
 
 ![](../Images/TaskCanvasBlockGlossary/Canvas-Check-Settings-CheckPosition-JointWaypoint.png)
 
-**Note:** **You may notice a mismatch between the linear rotational coordinates that you specify and the linear rotational coordinates that the robot reports.** For example, if you create a waypoint or frame with the \(Rx, Ry, Rz\) values of \(-150deg, 110deg, -165deg\) with respect to the Base Frame, Task Canvas may change these values to \(30deg, 70deg, 15deg\).
+:::note
+**You may notice a mismatch between the linear rotational coordinates that you specify and the linear rotational coordinates that the robot reports.** For example, if you create a waypoint or frame with the \(Rx, Ry, Rz\) values of \(-150deg, 110deg, -165deg\) with respect to the Base Frame, Task Canvas may change these values to \(30deg, 70deg, 15deg\).
 
 Even though robots accept Ry values between -180deg and 180deg, they only report Ry values between -90deg and 90deg. If your robot adjusts a specified Ry value to fit inside the latter range, it adjusts Rx and Rz values as well. **The specified values and adjusted values represent the same position, so the robot will move as expected. However, the different notation may cause Check blocks to fail.**
-
-**Parent topic:**[Canvas Blocks](../TaskCanvasBlockGlossary/Canvas-Overview.md)
+:::
 

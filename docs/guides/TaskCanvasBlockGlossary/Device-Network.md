@@ -14,5 +14,3 @@ See [*Canvas Blocks \> Check*](Canvas-Check.md).
 
 See [*Canvas Blocks \> Set*](Canvas-Set.md).
 
-**Parent topic:**[Block Glossary](../TaskCanvasBlockGlossary/BlockGlossaryOverview.md)
-
