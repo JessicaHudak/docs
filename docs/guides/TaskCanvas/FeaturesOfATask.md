@@ -34,39 +34,47 @@ Some blocks have two possible outcomes: a bottom gray path or a right orange pat
 
 See the images below for an example. The block named "Check Gripper Open" connects to the Continuous Move block through the bottom gray path and to the Wait block through the right orange path. In this case, the Check Gripper Open block is checking the state of gripper sensors. It follows the gray path if the gripper is open \(Checks Passed\) or it follows the right orange path if the gripper is closed \(Checks Not Passed\).
 
-|![](../Images/TaskCanvas/Canvas-Flowchart-Example1.png)|![](../Images/TaskCanvas/Canvas-Flowchart-Example1-Select.png)|
+![](../Images/TaskCanvas/Canvas-Flowchart-Example1.png)
+
+![](../Images/TaskCanvas/Canvas-Flowchart-Example1-Select.png)
 
 When you place a new block on the exit path of an existing block, Task Canvas creates the path connecting them. For information on how to create loops, disconnect paths, or reconnect paths, see [Block Programming](BlockProgramming.md).
 
 ## Special Block States
 
-|An incremental or robot motion block that was stopped midway through its execution displays a yellow **paused** icon. Press the **Last Executed** button in the Canvas Navigation menu to select and center the screen on the paused block.
+An incremental or robot motion block that was stopped midway through its execution displays a yellow **paused** icon. Press the **Last Executed** button in the Canvas Navigation menu to select and center the screen on the paused block.
 
-|![](../Images/TaskCanvas/Block-State-Paused.png)|
+![](../Images/TaskCanvas/Block-State-Paused.png)
 
-|If the last block that was executed finished its execution when stopping \(or stepping through\) a task, it displays a magenta**Last Executed** icon. Press the **Last Executed** button in the Canvas Execution menu to select and center the screen on the last executed block.
+---
 
-|![](../Images/TaskCanvas/Block-State-LastExecuted.png)|
+If the last block that was executed finished its execution when stopping \(or stepping through\) a task, it displays a magenta **Last Executed** icon. Press the **Last Executed** button in the Canvas Execution menu to select and center the screen on the last executed block.
 
-|A block that can't be traced back to the Start block through paths is a**Detached block**. You can modify and step Detached blocks, but they don't execute as part of a task since there is no path to them on the flowchart. Add a Detached block back to the task by connecting a path to it.
+![](../Images/TaskCanvas/Block-State-LastExecuted.png)
 
-|![](../Images/TaskCanvas/Detach2.png)|
+---
 
-|If you don't want your task to execute a block, but you're not ready to delete it, skip the block. A **Skipped block** stays connected to the flowchart, but it is passed over during task execution. Choose to skip to an available bottom or right path. Restore a block by tapping Unskip in the Block Editor.
+A block that can't be traced back to the Start block through paths is a**Detached block**. You can modify and step Detached blocks, but they don't execute as part of a task since there is no path to them on the flowchart. Add a Detached block back to the task by connecting a path to it.
 
-|![](../Images/TaskCanvas/Canvas-Flowchart-SkippedBlocks.png)|
+![](../Images/TaskCanvas/Detach2.png)
 
-|A block that is missing a key parameter or device needed to execute is a **Template block**. A template block appears transparent with a red exclamation point. Template blocks can prevent the task from executing until you **Skip** them.
+---
+
+If you don't want your task to execute a block, but you're not ready to delete it, skip the block. A **Skipped block** stays connected to the flowchart, but it is passed over during task execution. Choose to skip to an available bottom or right path. Restore a block by tapping Unskip in the Block Editor.
+
+![](../Images/TaskCanvas/Canvas-Flowchart-SkippedBlocks.png)
+
+---
+
+A block that is missing a key parameter or device needed to execute is a **Template block**. A template block appears transparent with a red exclamation point. Template blocks can prevent the task from executing until you **Skip** them.
 
 Tap the red exclamation point to view the block's error message. Tap **BACK TO BLOCK** to center the screen on that template block. Tap **X** to close the error message.
 
-|![](../Images/TaskCanvas/Block-State-Template.png)|
+![](../Images/TaskCanvas/Block-State-Template.png)
 
 To restore a Template block:
 
 -   Fill in the missing parameters in that block settings.
 -   Enable the referenced device in Device Configuration.
 -   Remap the missing device to another device in [Task Settings](TaskSettings.md).
-
-**Parent topic:**[Task Canvas](../TaskCanvas/TaskCanvasOverview.md)
 
