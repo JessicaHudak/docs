@@ -6,7 +6,9 @@ sidebar_position: 5
 
 Follow the instructions in this section to configure a generic lifting gripper \(such as a suction gripper or magnetic gripper\).
 
-**Note:** To use a lifting gripper without robot I/O, first configure the IPC and I/O devices. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more. Then select the signals for controlling air to the gripper.
+:::note
+To use a lifting gripper without robot I/O, first configure the IPC and I/O devices. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more. Then select the signals for controlling air to the gripper.
+:::
 
 1.  Select **Generic Lifting Gripper**. Then tap **NEXT**.
 
@@ -18,7 +20,9 @@ Follow the instructions in this section to configure a generic lifting gripper \
 
 3.  To make sure your device has enough time to actuate on and off in a task, enter the device's estimated **Actuation Time**. The default value is zero seconds.
 
-    **Note:** In Task Canvas, that device's control blocks prompt you to choose whether or not the task waits for the set Actuation time.
+:::info
+In Task Canvas, that device's control blocks prompt you to choose whether or not the task waits for the set Actuation time.
+:::
 
 4.  Tap **ADD NEW OUTPUT SIGNAL**.
 
@@ -36,12 +40,14 @@ Follow the instructions in this section to configure a generic lifting gripper \
 
     ![](../Images/DeviceConfiguration/GenericLiftingGripper-SignalStates.png)
 
-    **Note:** You cannot save the gripper configuration if you select the same conditions for multiple gripper states.
+:::note
+You cannot save the gripper configuration if you select the same conditions for multiple gripper states.
+:::
 
 7.  Tap **SAVE** to return to the Device Configuration home screen. Make sure the Lifting Gripper appears on the configured devices list and that it is ​**enabled**​.
 
-    **Note:** A device is **enabled** when its switch is green and toggled to the right.
+:::note
+A device is **enabled** when its switch is green and toggled to the right.
+:::
 
-
-**Parent topic:**[Device Configuration](../DeviceConfiguration/DeviceConfigurationOverview.md)
 

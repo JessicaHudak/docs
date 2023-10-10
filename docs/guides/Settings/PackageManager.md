@@ -34,6 +34,8 @@ Streamline the package installation process with “package bundles”. Instead 
 
 The main Package Manager screen shows a table of installed packages.
 
+---
+
 Tap **ADD NEW PACKAGE +** to install a new package.
 
 ![](../Images/Settings/PackageManager.png)
@@ -54,7 +56,9 @@ Check the status of the package installation and removal process with the “Ins
 
 ![](../Images/Settings/PackageManager-InstallStatus-Failure.png)
 
-|If no errors occur during installation, the new package appears in the Package Manager main screen.
+If no errors occur during installation, the new package appears in the Package Manager main screen.
+
+---
 
 To uninstall a package, select it and tap **Uninstall** in the table header.
 

@@ -16,7 +16,9 @@ A Generic IO Device allows you to define a custom device by creating functions t
 
 3.  Tap the **Output Signals** and **Input Signals** tabs to link existing signals to the device. Tap **ADD OUTPUT SIGNAL+** or **ADD INPUT SIGNAL+** to open the parameter selector and select the signals. These are the signals that you will select from in the next few steps when creating the device functions. Click **NEXT** when you are finished.
 
-    **Tip:** You can always return to this screen later to add or remove signals.
+:::info
+You can always return to this screen later to add or remove signals.
+:::
 
 4.  Follow these substeps to add your output and input functions.
 
@@ -24,7 +26,8 @@ A Generic IO Device allows you to define a custom device by creating functions t
 
     1.  In the **Output Functions** tab, tap **ADD FUNCTION+** to set the LOW/HIGH conditions and actuation times of the selected boolean output signals. Select a signal and tap **Delete** to remove it from the function. Tap**ADD+** to add a signal back. The **Actuation Time** is how long Forge/OS will wait for the function to execute. Tap **SAVE** for the function to appear in the table.
 
-        |![](../Images/DeviceConfiguration/GenericIODevice-AddOutputFunction-OpenDoor.png)|![](../Images/DeviceConfiguration/GenericIODevice-AddOutputFunction-CloseDoor.png)|
+        ![](../Images/DeviceConfiguration/GenericIODevice-AddOutputFunction-OpenDoor.png)
+        ![](../Images/DeviceConfiguration/GenericIODevice-AddOutputFunction-CloseDoor.png)
 
     2.  In the **Input Functions** tab, tap **ADD FUNCTION+** to set the LOW/HIGH conditions of the selected boolean input signals. Select a signal and tap **Delete** to remove it from the function. Tap**ADD+** to add a signal back. Tap **SAVE** for the function to appear in the table.
 
@@ -36,8 +39,7 @@ A Generic IO Device allows you to define a custom device by creating functions t
 
 6.  Tap **SAVE** to return to the Device Configuration home screen. Make sure the Generic IO Device appears on the configured devices list and that it is ​**enabled**​.
 
-    **Note:** A device is **enabled** when its switch is green and toggled to the right.
-
-
-**Parent topic:**[Device Configuration](../DeviceConfiguration/DeviceConfigurationOverview.md)
+:::note
+A device is **enabled** when its switch is green and toggled to the right.
+:::
 

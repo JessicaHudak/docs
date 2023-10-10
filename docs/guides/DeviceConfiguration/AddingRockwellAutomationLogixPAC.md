@@ -8,11 +8,15 @@ In ForgeOS versions prior to 5.3.0, Rockwell Automation Logix PACs connected to 
 
 Now, the READY Robotics **AOP** \(**Add On Profile**\) streamlines this process. The AOP establishes a special Ethernet/IP Adapter connection with a defined data map, creating a deeper integration with Logix PACs than was possible with stand-alone EDS files. For an example of how pre-defined signal mapping can ease setup, see [Adding a Remote Control Device](AddingRemoteControlDevice.md).
 
-**Note:** The AOP is available for download on the READY Support site.
+:::note
+The AOP is available for download on the READY Support site.
+:::
 
-After you install the READY Robotics AOP in Studio 5000, follow the steps in this section to connect to Forge/OS and create a **Rockwell Automation Logix PAC** device.
+After you install the READY Robotics AOP in Studio 5000, follow the steps in this section to connect to ForgeOS and create a **Rockwell Automation Logix PAC** device.
 
-**Note:** Before creating a Rockwell Automation Logix PAC device, first add an Ethernet/IP fieldbus interface in the Settings app. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) to learn more.
+:::note
+Before creating a Rockwell Automation Logix PAC device, first add an Ethernet/IP fieldbus interface in the Settings app. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) to learn more.
+:::
 
 Once you create the device, you will be able to send and receive data to and from the Logix PAC through Check and Set blocks in Task Canvas.
 
@@ -26,7 +30,7 @@ Once you create the device, you will be able to send and receive data to and fro
 
     ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Studio5000-ModuleType.png)
 
-4.  Give the Device a **Name**. Then type in the **IP Address** that Forge/OS is running on.
+4.  Give the Device a **Name**. Then type in the **IP Address** that ForgeOS is running on.
 
     ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Studio5000-IPAddress.png)
 
@@ -35,11 +39,12 @@ Once you create the device, you will be able to send and receive data to and fro
     -   **Data**: Transfer integer \(INT\), unsigned integer \(UINT\), and float task data.
     -   **Data + Robot**: Do everything that the "Data" type can do, plus transfer robot data \(such as robot status, current robot position, TCP translational/ rotational velocities, and joint velocities\).
     -   **Extended Data + 2x Robot**: Do everything that the "Data + Robot" type can do, but for two sets of robot data.
-    ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Studio5000-DataType.png)
+
+        ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Studio5000-DataType.png)
 
 6.  Click **OK** to save your module definition change. Click **OK** again to save the module.
 
-7.  In the Forge/OS Device Library, select**Rockwell Automation Logix PAC** \(Network device type\). Then tap **NEXT**.
+7.  In the ForgeOS Device Library, select **Rockwell Automation Logix PAC** \(Network device type\). Then tap **NEXT**.
 
     ![](../Images/DeviceConfiguration/DeviceLibrary-Filter-Network.png)
 
@@ -51,9 +56,12 @@ Once you create the device, you will be able to send and receive data to and fro
 
     3.  In the **Instance** dropdown, select the data model type that you chose in Studio 5000.
 
-        **Note:** Depending on which data model type you choose, you may need to fill in an optional **Robot** dropdown\(s\). This dropdown includes all robot devices on the system. Selecting a robot here automatically pulls data from that device and maps it to the specified Ethernet/IP registers. The units specified in the Settings app will be used when sending this data.
+         ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Home.png)
 
-        ![](../Images/DeviceConfiguration/RockwellAutomationLogixPAC-Home.png)
+:::note
+Depending on which data model type you choose, you may need to fill in a **Robot** dropdown\(s\). This dropdown includes all robot devices on the system. Selecting a robot here automatically pulls data from that device and maps it to the specified Ethernet/IP registers. The units specified in the Settings app will be used when sending this data.
+:::
+   
 
 9.  Configure any **Input/Output \(I/O\)** signals that you want to view in the Device Control app.
 
@@ -67,6 +75,6 @@ Once you create the device, you will be able to send and receive data to and fro
 
 10. Tap **SAVE** to return to the Device Configuration home screen. Make sure the PAC appears on the configured devices list and that it is **enabled**.
 
-
-**Parent topic:**[Device Configuration](../DeviceConfiguration/DeviceConfigurationOverview.md)
-
+:::note
+A device is **enabled** when its switch is green and toggled to the right.
+:::

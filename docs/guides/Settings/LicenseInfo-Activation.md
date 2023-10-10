@@ -21,33 +21,39 @@ Below are the requirements for each method.
 Connect a USB keyboard to the port on the bottom of the READY pendant to type in any text field in ForgeOS.
 :::
 
-On the Settings app main screen, tap **License**.
+---
+
+1. On the Settings app main screen, tap **License**.
 
 ![](../Images/Settings/Home-Deactivated.png)
 
-Type in your license code.
+2. Type in your license code.
 
-Choose **ONLINE LICENSE ACTIVATION** if ForgeOS is connected to the internet. If not, choose **OFFLINE LICENSE ACTIVATION**.
+3. Choose **ONLINE LICENSE ACTIVATION** if ForgeOS is connected to the internet. If not, choose **OFFLINE LICENSE ACTIVATION**.
 
 ![](../Images/Settings/License-Activation-EnterLincenseKey.png)
+
+---
 
 If you chose online license activation, you're done!
 
 If you chose offline license activation, follow these steps:
 
-Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
+4. Insert the USB flash drive into your IPC. Tap **START WRITING CERTIFICATE TO USB DRIVE**.
 
 ![](../Images/Settings/License-Activation-Offline-Step1.png)
 
-When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to convert the Activation Certificate to an Unlock Certificate using an internet-connected PC.
+5. When the files finish transferring, tap **NEXT**. Follow the instructions on the screen to convert the Activation Certificate to an Unlock Certificate using an internet-connected PC.
 
 ![](../Images/Settings/License-Activation-Offline-Step2.png)
 
-Insert the USB flash drive back into your IPC. Tap **UNLOAD UNLOCK CERTIFICATE FROM USB DRIVE**.
+6. Insert the USB flash drive back into your IPC. Tap **UNLOAD UNLOCK CERTIFICATE FROM USB DRIVE**.
 
 ![](../Images/Settings/License-Activation-Offline-Step3.png)
 
-Wait for the file to finish transferring. When the file transfer is complete, remove the USB flash drive and tap **SAVE**.
+7. Wait for the file to finish transferring. When the file transfer is complete, remove the USB flash drive and tap **SAVE**.
+
+---
 
 ForgeOS returns to the licensing home screen and shows an active license. If the license status isn't active, restart these license activation steps. Double-check your license code.
 

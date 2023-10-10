@@ -12,6 +12,7 @@ See [Deactivating ForgeOS with a License Code](LicenseInfo-Deactivation.md) for 
 
 :::info
 READY can use a web portal to enable a list of applications to appear in the **Licensed Applications** table according to your specific license code. This table will update upon license activation. If a license is already active, the table will update upon license deactivation and reactivation. Once applications appear in the table, sort them by name or expiration date.
-![](../Images/Settings/License-LicensedApplications.png)
+
+  ![](../Images/Settings/License-LicensedApplications.png)
 :::
 

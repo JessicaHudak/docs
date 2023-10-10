@@ -16,9 +16,13 @@ Backups that you create are listed in the table. Sort the table by the backup na
 
 ![](../Images/Settings/BackupAndRestore.png)
 
+---
+
 To export or import backup files to or from a USB drive, insert the USB drive into the Forge IPC. Then tap **USB Import/Export** at the top of the table.
 
 ![](../Images/Settings/BackupAndRestore-ImportExport.png)
+
+---
 
 To restore your system or another system on the same ForgeOS version, tap **Restore From Backup**. The restore process performs a complete system overwrite with the backed-up data. ForgeOS licenses are not included in the backup and will not be overwritten by a restore.
 

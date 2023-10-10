@@ -6,7 +6,9 @@ sidebar_position: 11
 
 Follow the instructions in this section to configure a generic button or pedal presser. These steps are for a button presser, but adding a pedal presser follows the same steps.
 
-**Note:** The button/pedal presser requires pneumatic or electronic control through I/O. First configure the IPC and I/O devices. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more. Then select the signals for controlling air or current to the pressing device.
+:::note
+The button/pedal presser requires pneumatic or electronic control through I/O. First configure the IPC and I/O devices. See [Fieldbus Configuration](../Settings/FieldbusConfiguration.md) settings to learn more. Then select the signals for controlling air or current to the pressing device.
+:::
 
 1.  Select **Generic Button Presser** or **Generic Pedal Presser**. Then tap **NEXT**.
 
@@ -18,7 +20,9 @@ Follow the instructions in this section to configure a generic button or pedal p
 
 3.  To make sure your device has enough time to actuate on and off in a task, enter the device's estimated **Actuation Time**. The default value is zero seconds.
 
-    **Note:** In Task Canvas, that device's control blocks prompt you to choose whether or not the task waits for the set Actuation time.
+:::info
+In Task Canvas, that device's control blocks prompt you to choose whether or not the task waits for the set Actuation time.
+:::
 
 4.  Tap **ADD NEW OUTPUT SIGNAL**.
 
@@ -36,12 +40,13 @@ Follow the instructions in this section to configure a generic button or pedal p
 
     ![](../Images/DeviceConfiguration/GenericButtonPresser-SignalStates.png)
 
-    **Note:** You cannot save the configuration if you select the same conditions for multiple states.
+:::note
+You cannot save the configuration if you select the same conditions for multiple states.
+:::
 
 7.  Tap **SAVE** to return to the Device Configuration home screen. Make sure the Button Presser appears on the configured devices list and that it is ​**enabled**​.
 
-    **Note:** A device is **enabled** when its switch is green and toggled to the right.
-
-
-**Parent topic:**[Device Configuration](../DeviceConfiguration/DeviceConfigurationOverview.md)
+:::note
+A device is **enabled** when its switch is green and toggled to the right.
+:::
 

@@ -18,9 +18,13 @@ The possible robot states are:
 |![](../Images/Platform/DeviceMode-Warning.png)|The robot requires a reset from ForgeOS.|
 |![](../Images/Platform/DeviceMode-Error.png)|The robot requires a reset from ForgeOS or other actions to regain normal operation.|
 
+---
+
 For robots requiring the **Mode Selector Key Switch**, turn the key to select between **Run** \(clockwise\) and **Teach** \(counter-clockwise\).
 
 ![](../Images/Platform/ReadyPendant-Top.png)
+
+---
 
 For collaborative robots, open the Device Status Panel and tap to choose a robot mode.
 
@@ -30,6 +34,8 @@ You cannot toggle directly from Hand Guide mode to Run mode. First switch to Tea
 
 ![](../Images/Platform/DeviceStatusPanel-MultipleDevices.png)
 
+---
+
 For robots with **PROGRAM** mode, open the Device Status Panel and tap to choose a robot mode. For example, tap **PROGRAM** to change the robot to Program mode.
 
 ![](../Images/Platform/DeviceStatusPanel-Program.png)
@@ -37,6 +43,8 @@ For robots with **PROGRAM** mode, open the Device Status Panel and tap to choose
 :::info
 Robots that do not require hardware switching between modes will always start up in Run mode after a ForgeOS restart. This allows for a smooth integration with Remote Control mode.
 :::
+
+---
 
 The possible states for other devices are:
 

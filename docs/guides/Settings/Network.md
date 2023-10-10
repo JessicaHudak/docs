@@ -6,7 +6,11 @@ sidebar_position: 2
 
 The Network screen is where you control network-related settings.
 
+---
+
 In the **Network Interfaces** table, view and edit Wi-Fi and Ethernet interfaces on your IPC.
+
+---
 
 In the **Remote Applications and Devices** section, toggle on **Auto enable Remote Control** to automatically begin in Remote Control mode when ForgeOS restarts.
 
@@ -27,5 +31,7 @@ If you additionally toggle on **Enable Forge Edge Remote Control**, you can remo
 :::info
 For more information about how to set up a network connection to your computer, how to launch Forge Edge, and how to give web-based apps created with Forge Edge access to your ForgeOS instance, refer to the READY Robotics website.
 :::
+
+---
 
 The **READY Support Access** section is where you enable remote access for READY Robotics Support to service or troubleshoot your system. First connect your system to the Internet, then use the controls to stop and restart access for remote connection.

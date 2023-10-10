@@ -6,7 +6,11 @@ sidebar_position: 4
 
 The General Settings screen is where you access language, unit, and time settings.
 
+---
+
 Select a **Language**. If you change the language, restart the system to display all translatable text into the selected language.
+
+---
 
 Select **Metric** or **Imperial** units of measurement. The default system of measurement is Metric, but you may change units to Imperial at any time. Changing the unit system will automatically convert numerical values of known units.
 
@@ -18,6 +22,8 @@ Variables are not affected by changing units of measure in General Settings. You
 -   If you enter 25mm in the Z field of a move block, then you switch to Imperial units, ForgeOS converts that value to 0.984in.
 -   If you create an integer variable with a value of 25 to use in the Z field of a linear relative move, then you switch to Imperial units, Forge/OS does NOT convert that value.
 :::
+
+---
 
 Tap **SET DATE AND TIME** to change the date and time that appears in the Taskbar.
 

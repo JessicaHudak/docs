@@ -26,8 +26,7 @@ The Forge/Ctrl comes with an internal PLC that gives you access to 24V digital I
 
 4.  Tap **SAVE** to return to the Device Configuration home screen. Make sure the Forge/Ctrl appears on the configured devices list and that it is **​enabled​**.
 
-    **Note:** A device is **enabled** when its switch is green and toggled to the right.
-
-
-**Parent topic:**[Device Configuration](../DeviceConfiguration/DeviceConfigurationOverview.md)
+:::note
+A device is **enabled** when its switch is green and toggled to the right.
+:::
 
