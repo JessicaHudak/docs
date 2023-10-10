@@ -16,5 +16,3 @@ By default, all components of force and torque \(**Fx, Fy, Fz, Tx, Ty,** and **T
 
 Look through the graph's data with the navigation tools above it. You can zoom in, zoom out, or scroll left or right. The zoom controls change the scaling of the Time axis.
 
-**Parent topic:**[Device Control](../DeviceControls/DeviceControlOverview.md)
-

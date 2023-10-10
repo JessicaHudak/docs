@@ -8,5 +8,3 @@ When you select a lifting gripper, such as an end-of-arm vacuum suction gripper,
 
 ![](../Images/DeviceControls/LiftingGripper.png)
 
-**Parent topic:**[Device Control](../DeviceControls/DeviceControlOverview.md)
-

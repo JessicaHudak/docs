@@ -8,5 +8,3 @@ When you select a button presser or pedal presser, the app shows controls to pre
 
 ![](../Images/DeviceControls/ButtonPresser.png)
 
-**Parent topic:**[Device Control](../DeviceControls/DeviceControlOverview.md)
-
