@@ -179,6 +179,31 @@ const docs = [
       },
     },
   },
+  {
+    id: 'abb',
+    path: 'docs/abb',
+    routeBasePath: '/abb',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'fanuc',
+    path: 'docs/fanuc',
+    routeBasePath: '/fanuc',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'startup',
+    path: 'docs/startup',
+    routeBasePath: '/startup',
+  },
 ];
 
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
@@ -400,9 +425,9 @@ const config = {
       navbar: {
         logo: {
           href: '/',
-          src: '/logo/light.svg',
-          srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          src: '/logo/ready-dark.svg',
+          srcDark: '/logo/ready-dark.svg',
+          alt: 'READY Docs',
           height: '40px',
           width: '101px',
         },
@@ -412,8 +437,9 @@ const config = {
             to: 'guides',
             className: 'guides-top-header',
           },
+          /*
           {
-            label: 'Startup Guides',
+            label: 'Other Dropdown Design',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
@@ -423,10 +449,6 @@ const config = {
                 className: 'dyte-dropdown',
               },
             ],
-          },
-          {
-            label: 'Dev Docs',
-            to: '/api/',
           },
           {
             label: 'Resources',
@@ -440,11 +462,15 @@ const config = {
               },
             ],
           },
+          */
           {
-            label: 'Support',
-            to: 'https://www.ready-robotics.com/support/documentation',
+            label: 'FAQ',
+            to: '/faq',
           },
-
+          {
+            label: 'Release Notes',
+            to: '/release-notes',
+          },
           {
             type: 'search',
             position: 'right',

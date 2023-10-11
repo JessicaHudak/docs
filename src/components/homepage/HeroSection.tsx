@@ -28,7 +28,7 @@ const PRODUCTS = [
   },
   {
     title: 'Startup Guides',
-    link: '/guides',
+    link: '/abb',
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
