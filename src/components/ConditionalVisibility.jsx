@@ -1,17 +1,16 @@
+// src/components/ConditionalVisibility.js
 import React from 'react';
 
-const ConditionalVisibility = (props) => {
-  // Check the URL for the showContent parameter
+const ConditionalVisibility = ({ paramValue, children }) => {
+  // Check the URL for the "param" parameter
   const urlParams = new URLSearchParams(window.location.search);
-  const r30ia = urlParams.get('r30ia');
+  const param = urlParams.get('param');
 
-  // Define the condition based on the parameter value
-  const filter_r30ia = r30ia === 'true';
-
-  if (filter_r30ia) {
-    return <div>{props.children}</div>;
+  if (param === paramValue) {
+    return children;
   }
-  return null; // Hide content if the condition is not met
+
+  return null;
 };
 
 export default ConditionalVisibility;
