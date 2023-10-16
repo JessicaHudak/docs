@@ -23,3 +23,5 @@ Expand the **Message Type** dropdown to choose the pop-up that appears when the 
 
 ![](../Images/TaskCanvasBlockGlossary/Canvas-Finish-MessageTypesDropdown.png)
 
+[Back to Canvas Block Overview](Canvas-Overview.md)
+

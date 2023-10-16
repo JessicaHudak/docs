@@ -40,3 +40,5 @@ In the “**Advanced**” tab, enable the “**Publish data once set is complete
 
 ![](../Images/TaskCanvasBlockGlossary/Canvas-Set-Settings-Advanced.png)
 
+[Back to Canvas Block Overview](Canvas-Overview.md)
+

@@ -22,3 +22,4 @@ By default, the buttons are labeled **BOTTOM PATH**, **RIGHT PATH**, and **STOP 
 
 ![](../Images/TaskCanvasBlockGlossary/Canvas-UserDecision-Settings.png)
 
+[Back to Canvas Block Overview](Canvas-Overview.md)

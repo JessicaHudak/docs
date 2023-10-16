@@ -30,3 +30,4 @@ When executing waypoint motion blocks, the **Active TCP** on the robot should ma
 The **Active Payload** instructs the robot to account for the amount of inertia at the end-of-arm when it is moving. A mismatch between the expected payload \(Active Payload\) and actual payload at the end-of-arm can cause errors. Use the TCP/Payload block in a task to update the Active Payload when the actual payload at the end-of-arm changes. For example, change the payload after picking up or putting down a part or a tool.
 :::
 
+[Back to Robot Command Block Overview](Robot-Overview.md)

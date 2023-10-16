@@ -71,3 +71,5 @@ When you compare **joint positions**, you enter a Joint Tolerance. The Joint Tol
 Even though robots accept Ry values between -180deg and 180deg, they only report Ry values between -90deg and 90deg. If your robot adjusts a specified Ry value to fit inside the latter range, it adjusts Rx and Rz values as well. **The specified values and adjusted values represent the same position, so the robot will move as expected. However, the different notation may cause Check blocks to fail.**
 :::
 
+[Back to Canvas Block Overview](Canvas-Overview.md)
+

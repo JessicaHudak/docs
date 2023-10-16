@@ -24,8 +24,3 @@ The Canvas blocks include Check, Count, Finish, Math, Set, Timer, User Decision,
 -   **[Resume Subtasks Block](../TaskCanvasBlockGlossary/Canvas-ResumeSubtask.md)**  
 -   **[Stop Subtasks Block](../TaskCanvasBlockGlossary/Canvas-StopSubtask.md)**  
 
-
-
-
-
-

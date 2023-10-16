@@ -30,3 +30,4 @@ To repeat a section of blocks with a Count block, add the Count block **at the e
 
 A Count block must have a right path. If there is no right path, the task ends as soon as the Count block is executed.
 
+[Back to Canvas Block Overview](Canvas-Overview.md)
