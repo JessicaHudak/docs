@@ -105,6 +105,8 @@ The hand strap for holding the pendant is not shown. Set up the strap for either
 
 :::tip
 If you forget what the keypad buttons do, tap the arrow in the bottom-right corner \(or swipe left from the right edge of the screen\) to see labels! If you have a robot selected to jog in the Device Control app and it's in Teach/Program mode, this legend lists the currently-selected Active TCP, move type, frame, and speed. If you do not have a robot selected or if it's unable to jog, the -/+ section of this legend appears blank.
-![](../Images/Intro/ReadyPendant-Legend-Linear.png)|![](../Images/Intro/ReadyPendant-Legend-NoRobotSelected.png)
+
+![](../Images/Intro/ReadyPendant-Legend-Linear.png)
+![](../Images/Intro/ReadyPendant-Legend-NoRobotSelected.png)
 :::
 

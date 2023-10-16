@@ -28,7 +28,7 @@ The key that opens the Boot Menu depends on the IPC model. The most common keys 
 :::
 
 :::info
-If you're installing Forge/OS on a **Forge/Ctrl**, press F11. You may need to enter the **BIOS Admin password**. Contact READY Support if you run into this issue.
+If you're installing ForgeOS on a **Forge/Ctrl**, press F11. You may need to enter the **BIOS Admin password**. Contact READY Support if you run into this issue.
 :::
       
 
