@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_class_name: hidden
 ---
 
 # Wait Block

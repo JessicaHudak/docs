@@ -1,5 +1,5 @@
 ---
-sidebar_position: 29
+sidebar_position: 6
 ---
 
 # Serial Device Blocks

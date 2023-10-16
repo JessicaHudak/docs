@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 3
 ---
 
 # Robot Command Blocks
@@ -7,6 +7,16 @@ sidebar_position: 18
 The Robot Command blocks are available in the block menu for active robot devices. They include robot move blocks, robot IO blocks, and other robot command blocks.
 
 ![](../Images/TaskCanvasBlockGlossary/Robot-Menu.png)
+
+-   **[Robot IO Blocks](../TaskCanvasBlockGlossary/Robot-IO.md)**  
+-   **[Absolute Move Block](../TaskCanvasBlockGlossary/Robot-Absolute.md)**  
+-   **[Relative Move Block](../TaskCanvasBlockGlossary/Robot-Relative.md)**  
+-   **[Circular Move Block](../TaskCanvasBlockGlossary/Robot-Circular.md)**  
+-   **[Continuous Move Block](../TaskCanvasBlockGlossary/Robot-Continuous.md)**  
+-   **[Grid Move Block](../TaskCanvasBlockGlossary/Robot-Grid.md)**  
+-   **[Array Move Block](../TaskCanvasBlockGlossary/Robot-Array.md)**  
+-   **[Set TCP/Payload Block](../TaskCanvasBlockGlossary/Robot-SetTCPAndPayload.md)**  
+
 
 All robot move blocks share a few common features:
 

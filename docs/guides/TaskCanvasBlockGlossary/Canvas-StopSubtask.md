@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_class_name: hidden
 ---
 
 # Subtask \> Stop Subtasks Block

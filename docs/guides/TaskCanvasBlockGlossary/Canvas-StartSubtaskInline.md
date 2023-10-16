@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_class_name: hidden
 ---
 
 # Subtask \> Start Subtask: Inline Block

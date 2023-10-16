@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_class_name: hidden
 ---
 
 # User Input Block

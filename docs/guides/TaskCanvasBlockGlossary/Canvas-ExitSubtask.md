@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_class_name: hidden
 ---
 
 # Subtask \> Exit: Inline Subtask Block

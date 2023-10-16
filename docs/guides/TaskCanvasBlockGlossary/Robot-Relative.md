@@ -1,5 +1,5 @@
 ---
-sidebar_position: 21
+sidebar_class_name: hidden
 ---
 
 # Relative Move Block

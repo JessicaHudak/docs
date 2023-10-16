@@ -199,11 +199,6 @@ const docs = [
       },
     },
   },
-  {
-    id: 'startup',
-    path: 'docs/startup',
-    routeBasePath: '/startup',
-  },
 ];
 
 /** @type {import('@docusaurus/plugin-content-docs').Options} */

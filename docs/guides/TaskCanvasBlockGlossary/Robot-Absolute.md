@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+sidebar_class_name: hidden
 ---
 
 # Absolute Move Block

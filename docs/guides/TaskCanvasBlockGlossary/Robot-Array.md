@@ -1,5 +1,5 @@
 ---
-sidebar_position: 25
+sidebar_class_name: hidden
 ---
 
 # Array Move Block

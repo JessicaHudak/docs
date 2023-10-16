@@ -10,3 +10,26 @@ Add blocks to a task from the **Block Menu**. The Block Menu organizes block typ
 
 ![](../Images/TaskCanvasBlockGlossary/Menu.png)
 
+-   **[Canvas Blocks](../TaskCanvasBlockGlossary/Canvas-Overview.md)**  
+-   **[Robot Blocks](../TaskCanvasBlockGlossary/Robot-Overview.md)**  
+-   **[Forge/Ctrl Blocks](../TaskCanvasBlockGlossary/Device-ForgeCtrl.md)**  
+-   **[Network Device Blocks](../TaskCanvasBlockGlossary/Device-Network.md)**  
+-   **[Serial Device Blocks](../TaskCanvasBlockGlossary/Device-Serial.md)**  
+-   **[Smart Gripper Blocks](../TaskCanvasBlockGlossary/Device-SmartGripper.md)** 
+-   **[Force Sensor Blocks](../TaskCanvasBlockGlossary/Device-ForceSensor.md)**  
+-   **[Clamping Gripper Blocks](../TaskCanvasBlockGlossary/Device-ClampingGripper.md)**  
+-   **[Lifting Gripper Blocks](../TaskCanvasBlockGlossary/Device-LiftingGripper.md)**  
+-   **[Generic IO Device Blocks](../TaskCanvasBlockGlossary/Device-GenericIODevice.md)**  
+-   **[Button Presser Blocks](../TaskCanvasBlockGlossary/Device-ButtonPresser.md)**  
+-   **[Pedal Presser Blocks](../TaskCanvasBlockGlossary/Device-PedalPresser.md)**  
+ 
+
+
+
+
+
+
+
+
+
+

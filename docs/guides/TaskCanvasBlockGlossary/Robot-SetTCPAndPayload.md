@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_class_name: hidden
 ---
 
 # Set TCP/Payload Block

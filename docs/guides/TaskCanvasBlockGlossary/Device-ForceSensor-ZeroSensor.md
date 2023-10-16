@@ -1,5 +1,5 @@
 ---
-sidebar_position: 32
+sidebar_class_name: hidden
 ---
 
 # Zero Sensor Block

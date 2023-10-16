@@ -1,5 +1,5 @@
 ---
-sidebar_position: 19
+sidebar_class_name: hidden
 ---
 
 # Robot I/O Blocks
