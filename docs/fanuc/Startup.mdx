@@ -12,10 +12,40 @@ import ConditionalVisibility from '@site/src/components/ConditionalVisibility';
 
 <ConditionalVisibility paramValue="r30ia">
   This is the content for r30ia. It will be visible if the URL contains "?param=r30ia".
+
+:::note
+Make sure you have the **R-30iA** controller.
+:::
+
+  ![](../fanuc/Images/Controller-r30ia.png)
+
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib">
-  This is the content for r30ib. It will be visible if the URL contains "?param=r30ib".
+<ConditionalVisibility paramValue="r30ib_fanuc">
+  This is the content for r30ib (fanuc safety). It will be visible if the URL contains "?param=r30ib_fanuc".
+
+:::note
+Make sure you have the **R-30iB** controller.
+:::
+
+Here is a table of the reqs.
+
+|Picture|Item|Description|
+|---|----------------------|-----------|
+|![](../fanuc/Images/Controller-r30ib-plus.png)|R-30iB Controller|This is the robot's brain.|
+|![](../fanuc/Images/FanucPendant.png)|Fanuc pendant|Needed to set parameters during setup and to recover from some errors.|
+
+
+</ConditionalVisibility>
+
+## Software Reqs
+
+<ConditionalVisibility paramValue="r30ia">
+  R-30iA Software Reqs
+</ConditionalVisibility>
+
+<ConditionalVisibility paramValue="r30ib_fanuc">
+  R-30iB Software Reqs (Fanuc Safety)
 </ConditionalVisibility>
 
 
