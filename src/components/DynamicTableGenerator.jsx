@@ -17,8 +17,8 @@ export default function DynamicTableGenerator({ tableKey }) {
       <table>
         <thead>
           <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
+            <th>WIRE</th>
+            <th>DESTINATION</th>
           </tr>
         </thead>
         <tbody>

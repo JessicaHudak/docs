@@ -8,35 +8,52 @@ import ConditionalVisibility from '@site/src/components/ConditionalVisibility';
 import DynamicTableGenerator from '@site/src/components/DynamicTableGenerator';
 
 
+
+
+
 ## Hardware Reqs
 
 <ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
-  This is the content for r30ia. It will be visible if the URL contains "?param=r30ia".
 
 :::note
 Make sure you have the **R-30iA** controller.
+![](../fanuc/Images/Controller-r30ia.png)
 :::
 
-  ![](../fanuc/Images/Controller-r30ia.png)
-
 </ConditionalVisibility>
+
+
+
+
+
 
 <ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
-  This is the content for r30ib (fanuc safety). It will be visible if the URL contains "?param=r30ib&safetyValue=fanuc".
 
 :::note
-Make sure you have the **R-30iB** controller.
+Make sure you have the **R-30iB** controller with **Fanuc safety**.
+![](../fanuc/Images/Controller-r30ib-plus.png)
 :::
 
-Here is a table of the reqs.
+</ConditionalVisibility>
 
-|Picture|Item|Description|
-|---|----------------------|-----------|
-|![](../fanuc/Images/Controller-r30ib-plus.png)|R-30iB Controller|This is the robot's brain.|
-|![](../fanuc/Images/FanucPendant.png)|Fanuc pendant|Needed to set parameters during setup and to recover from some errors.|
 
+
+
+
+<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
+
+:::note
+Make sure you have the **R-30iB** controller with **CIP safety**.
+![](../fanuc/Images/Controller-r30ib-plus.png)
+:::
 
 </ConditionalVisibility>
+
+
+
+
+
+
 
 ## Software Reqs
 
@@ -52,16 +69,24 @@ Here is a table of the reqs.
   R-30iB Software Reqs (CIP Safety)
 </ConditionalVisibility>
 
-## Getting Files
+
+
+
+
+
 
 ## Wiring Table
 
-<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
-<DynamicTableGenerator tableKey="example-table" />
+<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
+<DynamicTableGenerator tableKey="r30ia-fanuc" />
 </ConditionalVisibility>
 
+<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
+<DynamicTableGenerator tableKey="r30ib-fanuc" />
+</ConditionalVisibility>
 
-
-
+<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
+<DynamicTableGenerator tableKey="r30ib-cip" />
+</ConditionalVisibility>
 
 
