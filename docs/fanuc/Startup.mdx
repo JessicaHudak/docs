@@ -7,10 +7,9 @@ tags: [fanuc, update]
 import ConditionalVisibility from '@site/src/components/ConditionalVisibility';
 
 
-
 ## Hardware Reqs
 
-<ConditionalVisibility paramValue="r30ia">
+<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
   This is the content for r30ia. It will be visible if the URL contains "?param=r30ia".
 
 :::note
@@ -21,8 +20,8 @@ Make sure you have the **R-30iA** controller.
 
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib_fanuc">
-  This is the content for r30ib (fanuc safety). It will be visible if the URL contains "?param=r30ib_fanuc".
+<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
+  This is the content for r30ib (fanuc safety). It will be visible if the URL contains "?param=r30ib&safetyValue=fanuc".
 
 :::note
 Make sure you have the **R-30iB** controller.
@@ -40,12 +39,16 @@ Here is a table of the reqs.
 
 ## Software Reqs
 
-<ConditionalVisibility paramValue="r30ia">
+<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
   R-30iA Software Reqs
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib_fanuc">
+<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
   R-30iB Software Reqs (Fanuc Safety)
+</ConditionalVisibility>
+
+<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
+  R-30iB Software Reqs (CIP Safety)
 </ConditionalVisibility>
 
 
