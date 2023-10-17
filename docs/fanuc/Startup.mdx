@@ -5,6 +5,7 @@ tags: [fanuc, update]
 ---
 
 import ConditionalVisibility from '@site/src/components/ConditionalVisibility';
+import DynamicTableGenerator from '@site/src/components/DynamicTableGenerator';
 
 
 ## Hardware Reqs
@@ -55,7 +56,9 @@ Here is a table of the reqs.
 
 ## Wiring Table
 
-[Table](../wiring-table)
+<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
+<DynamicTableGenerator tableKey="example-table" />
+</ConditionalVisibility>
 
 
 
