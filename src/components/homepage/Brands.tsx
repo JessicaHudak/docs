@@ -21,7 +21,7 @@ export default function Brands() {
       </span>
 
       <h3 className="mb-12 text-4xl">
-        Choose your brand!
+        Choose your brand, or access the master startup guide <a href="/startup">here</a>.
       </h3>
 
       <div className="mb-10">

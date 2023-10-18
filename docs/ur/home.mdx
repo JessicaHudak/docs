@@ -1,0 +1,56 @@
+---
+title: FANUC Home
+description: Home for FANUC docs
+sidebar_position: 1
+tags: [fanuc, quickstart]
+slug: /
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { AndroidCoreLatestInstallation } from '@site/src/components/LatestInstallation';
+
+# Fanuc Home Page
+
+Find all FANUC guides here.
+
+---
+
+## Startup Guide
+
+Which controller + safety configuration are you using?
+
+- <a href="/fanuc/Startup?ctrl=r30ia&safety=fanuc" target="_self">R-30iA + Fanuc Safety</a>
+- <a href="/fanuc/Startup?ctrl=r30ib&safety=fanuc" target="_self">R-30iB + Fanuc Safety</a>
+- <a href="/fanuc/Startup?ctrl=r30ib&safety=cip" target="_self">R-30iB + CIP Safety</a>
+
+:::info
+For more info on safety configuration types, click here.
+:::
+
+:::caution
+If you are using a ForgeOS version different than the latest version, view the Changelog to check if you need to follow different instructions (such as different parameter values).
+:::
+
+---
+
+## Other Guides
+
+<CardSection
+  id="other"
+  title="OTHER"
+  description="Other resources."
+>
+<Card
+    title="How to Update"
+    to="/fanuc/HowToUpdate"
+    description="How to update robot driver files after a ForgeOS update."
+  />
+  <Card
+    title="How to Apply New TCPs"
+    to="/fanuc/HowToApplyNewTCPs"
+    description="How to apply TCP changes after you add or modify TCPs in Device Configuration."
+  />
+</CardSection>
+
+---

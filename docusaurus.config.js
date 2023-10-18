@@ -180,6 +180,16 @@ const docs = [
     },
   },
   {
+    id: 'startup',
+    path: 'docs/startup',
+    routeBasePath: '/startup',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
     id: 'abb',
     path: 'docs/abb',
     routeBasePath: '/abb',
@@ -190,9 +200,69 @@ const docs = [
     },
   },
   {
+    id: 'doosan',
+    path: 'docs/doosan',
+    routeBasePath: '/doosan',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'epson',
+    path: 'docs/epson',
+    routeBasePath: '/epson',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
     id: 'fanuc',
     path: 'docs/fanuc',
     routeBasePath: '/fanuc',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'kawasaki',
+    path: 'docs/kawasaki',
+    routeBasePath: '/kawasaki',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'staubli',
+    path: 'docs/staubli',
+    routeBasePath: '/staubli',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'ur',
+    path: 'docs/ur',
+    routeBasePath: '/ur',
+    versions: {
+      current: {
+        label: '1.33.x',
+      },
+    },
+  },
+  {
+    id: 'yaskawa',
+    path: 'docs/yaskawa',
+    routeBasePath: '/yaskawa',
     versions: {
       current: {
         label: '1.33.x',
