@@ -6,87 +6,74 @@ tags: [fanuc, update]
 
 import ConditionalVisibility from '@site/src/components/ConditionalVisibility';
 import DynamicTableGenerator from '@site/src/components/DynamicTableGenerator';
-
-
+import HardwareReqsTable from '@site/src/components/HardwareReqsGenerator';
+import SoftwareReqsTable from '@site/src/components/SoftwareReqsGenerator';
+import UserProfiles from '@site/docs/guides/Platform/UserProfiles.md';
 
 
 
 ## Hardware Reqs
 
-<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
-
-:::note
-Make sure you have the **R-30iA** controller.
-![](../fanuc/Images/Controller-r30ia.png)
-:::
-
+<ConditionalVisibility ctrlValue="r30ia" safetyValue="fanuc">
+<HardwareReqsTable hardwareKey="r30ia-fanuc" />
 </ConditionalVisibility>
 
-
-
-
-
-
-<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
-
-:::note
-Make sure you have the **R-30iB** controller with **Fanuc safety**.
-![](../fanuc/Images/Controller-r30ib-plus.png)
-:::
-
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="fanuc">
+<HardwareReqsTable hardwareKey="r30ib-fanuc" />
 </ConditionalVisibility>
 
-
-
-
-
-<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
-
-:::note
-Make sure you have the **R-30iB** controller with **CIP safety**.
-![](../fanuc/Images/Controller-r30ib-plus.png)
-:::
-
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="cip">
+<HardwareReqsTable hardwareKey="r30ib-cip" />
 </ConditionalVisibility>
 
-
-
-
-
-
+---
 
 ## Software Reqs
 
-<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
-  R-30iA Software Reqs
+<ConditionalVisibility ctrlValue="r30ia" safetyValue="fanuc">
+<SoftwareReqsTable softwareKey="r30ia-fanuc" />
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
-  R-30iB Software Reqs (Fanuc Safety)
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="fanuc">
+<SoftwareReqsTable softwareKey="r30ib-fanuc" />
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
-  R-30iB Software Reqs (CIP Safety)
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="cip">
+<SoftwareReqsTable softwareKey="r30ib-cip" />
 </ConditionalVisibility>
 
+---
+
+## Wiring the READY Pendant
+
+:::danger
+**Electric Shock Warning**: Make sure to disconnect everything from power first.
+:::
 
 
-
-
-
-
-## Wiring Table
-
-<ConditionalVisibility paramValue="r30ia" safetyValue="fanuc">
-<DynamicTableGenerator tableKey="r30ia-fanuc" />
+<ConditionalVisibility ctrlValue="r30ia" safetyValue="fanuc">
+<Tabs className="unique-tabs">
+  <TabItem value="General IPC"><DynamicTableGenerator tableKey="r30ia-fanuc" /></TabItem>
+  <TabItem value="ForgeHub or ForgeCtrl"><DynamicTableGenerator tableKey="r30ia-fanuc-kit" /></TabItem>
+</Tabs>
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib" safetyValue="fanuc">
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="fanuc">
 <DynamicTableGenerator tableKey="r30ib-fanuc" />
 </ConditionalVisibility>
 
-<ConditionalVisibility paramValue="r30ib" safetyValue="cip">
+<ConditionalVisibility ctrlValue="r30ib" safetyValue="cip">
 <DynamicTableGenerator tableKey="r30ib-cip" />
 </ConditionalVisibility>
+
+---
+
+## Signing in to ForgeOS
+
+Tap **Admin**. The default password is "forgeadmin".
+
+---
+
+<UserProfiles/>
 
 
