@@ -1,14 +1,14 @@
 // src/components/ConditionalVisibility.js
 import React from 'react';
 
-const ConditionalVisibility = ({ paramValue, safetyValue, children }) => {
+const ConditionalVisibility = ({ ctrlValue, safetyValue, children }) => {
   // Check the URL for the "param" parameter
   const urlParams = new URLSearchParams(window.location.search);
-  const param = urlParams.get('param');
+  const ctrl = urlParams.get('ctrl');
   const safety = urlParams.get('safety');
 
 
-  const shouldShowContent = param === paramValue && safety === safetyValue;
+  const shouldShowContent = ctrl === ctrlValue && safety === safetyValue;
 
   if (shouldShowContent) {
     return children;
